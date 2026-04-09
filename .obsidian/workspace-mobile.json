@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LCA.md",
+                "file": "09-Apr-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LCA"
+              "title": "09-Apr-2026"
             }
           }
         ],
@@ -187,6 +187,7 @@
   },
   "active": "3d7a57fc73eea288",
   "lastOpenFiles": [
+    "LCA.md",
     "09-Apr-2026.md",
     "templates/Sake Tasting Template.md",
     "/templates/Sake Tasting Template.md",
@@ -198,7 +199,6 @@
     "/09-Apr-2026.md",
     "/templates",
     "Untitled.md",
-    "LCA.md",
     "🧠 Second Brain.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Zero Emission Investigation.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
