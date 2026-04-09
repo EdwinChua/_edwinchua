@@ -5,7 +5,7 @@ Last Edited: 2026-03-30T16:35:00
 Status: Active
 Goal: Build an LCA platform using DEXPI 2.0 Process Model as the data structure for modelling and computing life cycle assessments.
 Created: 2026-03-30T16:33:00
-Tags: []
+Tags: [lca, work, project]
 ---
 > **Status:** Active | **Scope:** DEXPI 2.0 Process Model only (no Plant model / P&IDs)
 
@@ -140,14 +140,6 @@ Standalone HTML file (`dexpi_topology_viewer.html`) renders any conformant JSON 
 - Validate tab shows all active issues
 - If `exchanges` present → shows exchange names/values; falls back to `mass_flow` for legacy data
 
-[[⚙️ LCA Engine — Context & Known Issues]]
+---
 
-[[📖 LCA Basics — Matrix Method Reference]]
-
-[[⚙️ LCA Engine — Context & Known Issues]]
-
-[[🐛 Known Bugs — Priority Fixes]]
-
-[[🔍 Investigation — Zero Emission Bug]]
-
-[[🔍 Zero Emission Investigation]]
+[[LCA]] | [[📖 LCA Basics — Matrix Method Reference]] | [[⚙️ LCA Engine — Context & Known Issues]] | [[🐛 Known Bugs — Priority Fixes]] | [[🔍 Zero Emission Investigation]]

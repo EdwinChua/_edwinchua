@@ -1,6 +1,10 @@
 ---
+tags: [wine, france, burgundy, reference]
+---
+[[🍷 Wine Knowledge]] | [[🇫🇷 France — Wine Regions Overview]]
 
 ---
+
 ## 🗺️ The Map
 
 The Burgundy map shows the region running north-south, divided into distinct sub-regions:

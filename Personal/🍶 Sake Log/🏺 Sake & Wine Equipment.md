@@ -1,6 +1,10 @@
 ---
+tags: [sake, equipment, personal]
+---
+[[🍶 Sake — Beginner's Guide]]
 
 ---
+
 A log of sake and wine vessels, tools, and accessories.
 
 ---

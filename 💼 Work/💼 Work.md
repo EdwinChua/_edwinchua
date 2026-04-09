@@ -1,5 +1,5 @@
 ---
-
+tags: [work, hub]
 ---
 Your work hub — tasks, projects, meetings, and performance tracking in one place.
 

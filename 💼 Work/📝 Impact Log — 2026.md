@@ -28,7 +28,7 @@ Copy this block each time you add an entry:
 
 **Category:** Delivery
 
-**Project/Context:** CE2M Work Package 8 — SG-TIMES energy model
+**Project/Context:** [[CE2M WP8]] — SG-TIMES energy model
 
 **What I did:** Refreshed the web app and backend to expose SG-TIMES model parameters to users. Implemented UI controls for modifying model inputs and wired up end-to-end model execution from within the web app.
 
@@ -44,7 +44,7 @@ Copy this block each time you add an entry:
 
 **Category:** Delivery
 
-**Project/Context:** ePR Power Apps — A*STAR ERP Refresh alignment
+**Project/Context:** [[ePR Power Apps Enhancements]] — A*STAR ERP Refresh alignment
 
 **What I did:** Sole developer responsible for end-to-end enhancements across the full ePR stack (PowerApp, Power Automate flows, SharePoint backend) to align with the organisation-wide ERP refresh requirements.
 

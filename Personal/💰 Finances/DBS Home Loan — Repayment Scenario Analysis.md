@@ -1,6 +1,8 @@
 ---
-
+tags: [finance, personal, home-loan, cpf]
 ---
+[[💰 Finances]]
+
 ## Overview
 
 Analysis of 3 repayment scenarios for DBS home loan at 532 Upper Cross Street #09-227, based on Letter of Offer dated 23 Dec 2025.

@@ -1,5 +1,5 @@
 ---
-
+tags: [lca, work, reference, engineering]
 ---
 > Reference doc for `backend/api/app/services/test_calc.py` — the matrix-based LCA calculation engine.
 
@@ -182,3 +182,7 @@ Runs `N` simulations (default 5000 — `num_sims` parameter is ignored, hardcode
 | `services/test_calc.py` | This engine — `lambda_handler`, `distance_calc`, all matrix builders |
 | `services/LCA_calculation_service.py` | Orchestration layer — calls engine, persists results |
 | `claude-docs/lca-calculation/lca_calculation_service_context.md` | Orchestration layer context doc |
+
+---
+
+[[ADVISE LCA Platform]] | [[🐛 Known Bugs — Priority Fixes]] | [[🔍 Zero Emission Investigation]] | [[📖 LCA Basics — Matrix Method Reference]]

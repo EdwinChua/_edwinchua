@@ -1,11 +1,11 @@
 ---
-
+tags: [lca, reference]
 ---
 > Background reference: what LCA is and how the matrix method works. Source: `lca_calculation_basic_context.md`
 
 ## What is LCA?
 
-[[Life Cycle Assessment (LCA)]] is a systematic method for evaluating the environmental impacts of a product, process, or service across its entire life cycle — from raw material extraction through production, use, and end-of-life disposal ("cradle to grave"). Standardised under **ISO 14040** and **ISO 14044**.
+[[LCA|Life Cycle Assessment (LCA)]] is a systematic method for evaluating the environmental impacts of a product, process, or service across its entire life cycle — from raw material extraction through production, use, and end-of-life disposal ("cradle to grave"). Standardised under **ISO 14040** and **ISO 14044**.
 
 ---
 
@@ -111,3 +111,7 @@ g_CO₂ = (2 × 1.11) + (1 × 0.56) = 2.78 kg CO₂
 | SimaPro | Industry standard commercial tool |
 | ecoinvent | Most widely used background LCI database |
 | ELCD / GaBi | European process data |
+
+---
+
+[[ADVISE LCA Platform]] | [[⚙️ LCA Engine — Context & Known Issues]] | [[LCA]]

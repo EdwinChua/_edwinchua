@@ -1,5 +1,5 @@
 ---
-
+tags: [lca, work, bugs]
 ---
 > Bugs identified in `test_calc.py` (LCA engine) and `LCA_calculation_service.py`. Bugs 3 & 4 interact with each other and should be tackled together.
 
@@ -119,3 +119,7 @@ if not calculation_response:   # ← never catches engine errors
 - `run_in_threadpool` runs `lambda_handler` in a thread — concurrent requests sharing globals is the most serious risk under any real load
 
 **Fix direction:** Refactor `UserInputDB` to return a state object (dataclass or namedtuple), and thread that object through all matrix builder functions as an explicit argument rather than relying on module globals.
+
+---
+
+[[ADVISE LCA Platform]] | [[⚙️ LCA Engine — Context & Known Issues]] | [[🔍 Zero Emission Investigation]]

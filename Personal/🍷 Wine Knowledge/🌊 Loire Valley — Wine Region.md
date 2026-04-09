@@ -1,6 +1,10 @@
 ---
+tags: [wine, france, loire, reference]
+---
+[[🍷 Wine Knowledge]] | [[🇫🇷 France — Wine Regions Overview]]
 
 ---
+
 ## 🗺️ The Map
 
 The Loire Valley stretches roughly 1,000km from the Atlantic coast inland toward Burgundy. The map shows 4 main zones:
@@ -60,4 +64,4 @@ The Loire Valley stretches roughly 1,000km from the Atlantic coast inland toward
 - **Menetou-Salon** — Sancerre quality at half the price
 - **Saumur-Champigny** — light, easy Cabernet Franc red
 
-> **Sancerre vs Pouilly-Fumé confusion:** Both are Sauvignon Blanc from Centre-Loire. Sancerre is on the left bank of the river, Pouilly-Fumé on the right. Both are excellent but don’t confuse Pouilly-Fumé with Pouilly-Fuissé — that’s Chardonnay in Burgundy!
+> **Sancerre vs Pouilly-Fumé confusion:** Both are Sauvignon Blanc from Centre-Loire. Sancerre is on the left bank of the river, Pouilly-Fumé on the right. Both are excellent but don’t confuse Pouilly-Fumé with Pouilly-Fuissé — that’s Chardonnay in [[🍇 Burgundy (Bourgogne) — Wine Region|Burgundy]]!
