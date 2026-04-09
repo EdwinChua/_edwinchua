@@ -1,0 +1,1 @@
+LCA is life cycle assessment

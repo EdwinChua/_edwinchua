@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Second Brain.md",
+                "file": "LCA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🧠 Second Brain"
+              "title": "LCA"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "🧠 Second Brain.md",
+            "file": "LCA.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "🧠 Second Brain.md",
+            "file": "LCA.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "🧠 Second Brain.md",
+            "file": "LCA.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -165,11 +165,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "41117941ed429a86",
   "lastOpenFiles": [
+    "🧠 Second Brain.md",
     "LCA.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Zero Emission Investigation.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
@@ -204,7 +206,6 @@
     "Personal/💰 Finances/💰 Cash Flow/Gross Income.md",
     "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md",
     "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Domain crazy.technology 1.md",
-    "Personal/💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md"
+    "Personal/💰 Finances/💵 Budget Allocation/Domain crazy.technology 1.md"
   ]
 }
