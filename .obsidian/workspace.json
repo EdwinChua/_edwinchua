@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d94b39757053d6b4",
+        "id": "839c97315eb135f9",
         "type": "tabs",
         "children": [
           {
-            "id": "aff1093def7f7179",
+            "id": "71b2de1786d9137c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "⚙️ LCA Engine — Context & Known Issues 1"
+              "title": "New tab"
             }
           }
         ]
@@ -192,9 +188,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aff1093def7f7179",
+  "active": "71b2de1786d9137c",
   "lastOpenFiles": [
+    "LCA.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
+    "Life Cycle Assessment (LCA).md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Investigation — Zero Emission Bug.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🐛 Known Bugs — Priority Fixes.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
     "💼 Work/🚀 Work Projects/SEFR.md",
     "💼 Work/🚀 Work Projects/🚀 Work Projects.base",
     "💼 Work/🚀 Work Projects/CE2M WP8.md",
@@ -202,7 +204,6 @@
     "💼 Work/🎯 Goals & Appraisals/Year-End Appraisal — 2026.md",
     "Personal/💰 Finances/📈 Income Over Years/2026.md",
     "🧠 Second Brain.md",
-    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
     "Personal/🏺 Sake & Wine Equipment.md",
     "Personal/🍷 Wine Knowledge/🍷 Wine Knowledge.md",
     "Personal/💰 Finances/💵 Budget Allocation/💵 Budget Allocation.base",
@@ -227,11 +228,6 @@
     "Personal/💰 Finances/💰 Finances.md",
     "Personal/💰 Finances/💵 Budget Allocation/PruLink Protection Plus A-C.md",
     "Personal/💰 Finances/💵 Budget Allocation/AVIVA group term life.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Parents.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Power and Water.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Income Tax (GIRO Installment).md",
-    "Personal/💰 Finances/💵 Budget Allocation/Whizcomms.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Fitness First Gym (Girlfriend).md",
-    "Personal/💰 Finances/💵 Budget Allocation/Google Drive.md"
+    "Personal/💰 Finances/💵 Budget Allocation/Parents.md"
   ]
 }

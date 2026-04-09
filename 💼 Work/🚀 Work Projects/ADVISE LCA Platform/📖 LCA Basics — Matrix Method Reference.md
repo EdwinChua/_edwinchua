@@ -5,7 +5,7 @@
 
 ## What is LCA?
 
-Life Cycle Assessment (LCA) is a systematic method for evaluating the environmental impacts of a product, process, or service across its entire life cycle — from raw material extraction through production, use, and end-of-life disposal ("cradle to grave"). Standardised under **ISO 14040** and **ISO 14044**.
+[[Life Cycle Assessment (LCA)]] is a systematic method for evaluating the environmental impacts of a product, process, or service across its entire life cycle — from raw material extraction through production, use, and end-of-life disposal ("cradle to grave"). Standardised under **ISO 14040** and **ISO 14044**.
 
 ---
 
