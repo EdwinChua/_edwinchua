@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "42ebf0a91629a53b",
+        "id": "d94b39757053d6b4",
         "type": "tabs",
         "children": [
           {
-            "id": "5bd4d671b8d8c36c",
+            "id": "aff1093def7f7179",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "🧠 Second Brain.md",
-                "mode": "source",
-                "source": false
+                "file": "💼 Work/🎯 Goals & Appraisals/🎯 Goals & Appraisals.base",
+                "viewName": "Table View"
               },
-              "icon": "lucide-file",
-              "title": "🧠 Second Brain"
+              "icon": "lucide-table",
+              "title": "🎯 Goals & Appraisals"
             }
           }
         ]
@@ -192,11 +191,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bd4d671b8d8c36c",
+  "active": "aff1093def7f7179",
   "lastOpenFiles": [
-    "Personal/🍶 Sake Log/富美川 (Tomikawa) Seishu.md",
+    "💼 Work/🎯 Goals & Appraisals/Year-End Appraisal — 2026.md",
+    "Personal/💰 Finances/📈 Income Over Years/2026.md",
     "🧠 Second Brain.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
+    "Personal/🏺 Sake & Wine Equipment.md",
     "Personal/🍷 Wine Knowledge/🍷 Wine Knowledge.md",
+    "Personal/💰 Finances/💵 Budget Allocation/💵 Budget Allocation.base",
+    "Personal/🍶 Sake Log/富美川 (Tomikawa) Seishu.md",
     "📥 Inbox.base",
     "📝 Notes.base",
     "📚 Resources/📚 Resources.base",
@@ -207,7 +211,6 @@
     "Untitled 1.canvas",
     "Personal",
     "Personal/💰 Finances/📈 Salary Projection — 2026 to 2030.html",
-    "💰 Finances/📈 Salary Projection — 2026 to 2030.html.tmp.5.1775710855324",
     "Untitled.canvas",
     "🇫🇷 France — Wine Regions Overview.png",
     "2026-04-09.md",
@@ -228,10 +231,6 @@
     "Personal/💰 Finances/💵 Budget Allocation/Google Drive.md",
     "Personal/💰 Finances/💵 Budget Allocation/Youtube Premium.md",
     "Personal/💰 Finances/💵 Budget Allocation/Fitness First Gym (Edwin).md",
-    "Personal/💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md",
-    "Personal/💰 Finances/💵 Budget Allocation/PruLife Multiplier Flex.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Investment Cash.md",
-    "Personal/💰 Finances/💵 Budget Allocation/SIMBA.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Domain crazy.technology 1.md"
+    "Personal/💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md"
   ]
 }
