@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39a90b6d708c256b",
+        "id": "839c97315eb135f9",
         "type": "tabs",
         "children": [
           {
-            "id": "5a4e450da4fd2c71",
+            "id": "71b2de1786d9137c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,17 +192,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a4e450da4fd2c71",
+  "active": "71b2de1786d9137c",
   "lastOpenFiles": [
-    "09-Apr-2026.md",
-    "Untitled.md",
     "🧠 Second Brain.md",
-    "Untitled 1.md",
-    "templates/Sake Tasting Template.md",
+    "09-Apr-2026.md",
     "LCA.md",
-    "templates/Project Template.md",
-    "templates/Meeting Note template.md",
-    "templates",
+    "templates/Sake Tasting Template.md",
+    "Untitled.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
     "Life Cycle Assessment (LCA).md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
@@ -225,6 +221,7 @@
     "💰 Finances/📈 Salary Projection — 2026 to 2030.html.tmp.5.1775711015917",
     "📝 Notes/📝 Notes.base",
     "📥 Inbox/📥 Inbox.base",
+    "Personal/🚀 Projects/🚀 Projects.base",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "🇫🇷 France — Wine Regions Overview.png",
@@ -232,6 +229,9 @@
     "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md",
     "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
     "Personal/💰 Finances/💰 Cash Flow/Gross Income.md",
-    "💼 Work/📊 Year-End Impact Report — 2026.md"
+    "💼 Work/📊 Year-End Impact Report — 2026.md",
+    "Welcome.md",
+    "Personal/🍷 Wine Log/❌ Moved to Sake Log 富美川 (Tomikawa).md",
+    "Personal/💰 Finances/💰 Finances.md"
   ]
 }
