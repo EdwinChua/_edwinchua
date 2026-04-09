@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#personal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,6 +195,7 @@
   },
   "active": "5a4e450da4fd2c71",
   "lastOpenFiles": [
+    "Untitled",
     "09-Apr-2026.md",
     "Untitled.md",
     "🧠 Second Brain.md",
@@ -231,7 +233,6 @@
     "2026-04-09.md",
     "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md",
     "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
-    "Personal/💰 Finances/💰 Cash Flow/Gross Income.md",
-    "💼 Work/📊 Year-End Impact Report — 2026.md"
+    "Personal/💰 Finances/💰 Cash Flow/Gross Income.md"
   ]
 }
