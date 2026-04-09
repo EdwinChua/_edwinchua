@@ -10,7 +10,7 @@ Tags: []
 ---
 ## Overview
 
-Work Package 8 under the CE2M project. Refreshed the web app and backend to enable users to interact with the SG-TIMES model directly — modifying input parameters and triggering model runs from within the app.
+Work Package 8 under the [[CE2M]] project. Refreshed the web app and backend to enable users to interact with the SG-TIMES model directly — modifying input parameters and triggering model runs from within the app.
 
 ## Scope
 

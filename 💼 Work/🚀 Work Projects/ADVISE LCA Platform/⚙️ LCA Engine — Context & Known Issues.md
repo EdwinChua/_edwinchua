@@ -5,7 +5,7 @@
 
 ## Overview
 
-Implements **process-based LCA matrix algebra** per ISO 14040/14044. Given a product system, solves a linear system of process interdependencies and multiplies through emission/characterization factors to produce total environmental impacts per indicator.
+Implements **process-based [[LCA]] matrix algebra** per ISO 14040/14044. Given a product system, solves a linear system of process interdependencies and multiplies through emission/characterization factors to produce total environmental impacts per indicator.
 
 Core equation:
 

@@ -11,13 +11,14 @@
             "id": "aff1093def7f7179",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "💼 Work/🎯 Goals & Appraisals/🎯 Goals & Appraisals.base",
-                "viewName": "Table View"
+                "file": "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "🎯 Goals & Appraisals"
+              "icon": "lucide-file",
+              "title": "⚙️ LCA Engine — Context & Known Issues 1"
             }
           }
         ]
@@ -193,6 +194,11 @@
   },
   "active": "aff1093def7f7179",
   "lastOpenFiles": [
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
+    "💼 Work/🚀 Work Projects/SEFR.md",
+    "💼 Work/🚀 Work Projects/🚀 Work Projects.base",
+    "💼 Work/🚀 Work Projects/CE2M WP8.md",
+    "💼 Work/🎯 Goals & Appraisals/🎯 Goals & Appraisals.base",
     "💼 Work/🎯 Goals & Appraisals/Year-End Appraisal — 2026.md",
     "Personal/💰 Finances/📈 Income Over Years/2026.md",
     "🧠 Second Brain.md",
@@ -209,8 +215,6 @@
     "📥 Inbox/📥 Inbox.base",
     "Personal/🚀 Projects/🚀 Projects.base",
     "Untitled 1.canvas",
-    "Personal",
-    "Personal/💰 Finances/📈 Salary Projection — 2026 to 2030.html",
     "Untitled.canvas",
     "🇫🇷 France — Wine Regions Overview.png",
     "2026-04-09.md",
@@ -228,9 +232,6 @@
     "Personal/💰 Finances/💵 Budget Allocation/Income Tax (GIRO Installment).md",
     "Personal/💰 Finances/💵 Budget Allocation/Whizcomms.md",
     "Personal/💰 Finances/💵 Budget Allocation/Fitness First Gym (Girlfriend).md",
-    "Personal/💰 Finances/💵 Budget Allocation/Google Drive.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Youtube Premium.md",
-    "Personal/💰 Finances/💵 Budget Allocation/Fitness First Gym (Edwin).md",
-    "Personal/💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md"
+    "Personal/💰 Finances/💵 Budget Allocation/Google Drive.md"
   ]
 }
