@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "4184f84c194407db",
+    "type": "split",
+    "children": [
+      {
+        "id": "670094c0ab34dd30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41117941ed429a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠 Second Brain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🧠 Second Brain"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73f3ee4cc9c49370",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2e7381761d41bf0b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "8513883b7f823cb5",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "c24214f929fcdab3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "e86975a335781180",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "8c07bf31616b6a94",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "60b74d9c937fdfde",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b31e6b87beb25189",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "🧠 Second Brain.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "b4acd98c57374a60",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "🧠 Second Brain.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "024e0a9469f4c30e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "🧠 Second Brain.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "41117941ed429a86",
+  "lastOpenFiles": [
+    "LCA.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Zero Emission Investigation.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/ADVISE LCA Platform.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🐛 Known Bugs — Priority Fixes.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Investigation — Zero Emission Bug.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues 1.md",
+    "💼 Work/📓 Meeting Notes/📓 Meeting Notes.base",
+    "💼 Work/📋 Tasks/Debug zero emission bug via ecoquery — check indicator coverage in Allocation cut-off and Substitution consequential datasets.md",
+    "💼 Work/📋 Tasks/📋 Tasks.base",
+    "💼 Work/🚀 Work Projects/SEFR.md",
+    "💼 Work/🚀 Work Projects/CE2M WP8.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform",
+    "💼 Work/🚀 Work Projects/ePR Power Apps Enhancements.md",
+    "💼 Work/🚀 Work Projects/🚀 Work Projects.base",
+    "💼 Work/🎯 Goals & Appraisals/🎯 Goals & Appraisals.base",
+    "💼 Work/🎯 Goals & Appraisals/Year-End Appraisal — 2026.md",
+    "💼 Work/📓 Meeting Notes",
+    "💼 Work/💼 Work.md",
+    "💼 Work/📊 Year-End Impact Report — 2026.md",
+    "💼 Work/📋 Tasks",
+    "💼 Work/📝 Impact Log — 2026.md",
+    "💼 Work/🚀 Work Projects",
+    "💼 Work/🎯 Goals & Appraisals",
+    "💼 Work",
+    "Personal/💰 Finances/📈 Income Over Years/2022.md",
+    "Personal/💰 Finances/📈 Income Over Years/2026.md",
+    "Personal/💰 Finances/📈 Income Over Years/2023.md",
+    "Personal/💰 Finances/📈 Income Over Years/2024.md",
+    "Personal/💰 Finances/📈 Income Over Years/2025.md",
+    "Personal/💰 Finances/💰 Cash Flow/Gross Income.md",
+    "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md",
+    "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
+    "Personal/💰 Finances/💵 Budget Allocation/Domain crazy.technology 1.md",
+    "Personal/💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md"
+  ]
+}
