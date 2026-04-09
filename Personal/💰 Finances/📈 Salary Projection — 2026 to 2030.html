@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edwin's Salary History & Projection</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 32px 24px;
+    }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; color: #f1f5f9; }
+    .subtitle { font-size: 0.85rem; color: #94a3b8; margin-bottom: 32px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: #1e2330;
+      border-radius: 12px;
+      padding: 16px 20px;
+      border: 1px solid #2d3748;
+    }
+    .card-label { font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .card-value { font-size: 1.4rem; font-weight: 700; color: #f1f5f9; }
+    .card-sub { font-size: 0.8rem; color: #94a3b8; margin-top: 2px; }
+    .card-green .card-value { color: #34d399; }
+    .chart-wrap {
+      background: #1e2330;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #2d3748;
+      margin-bottom: 24px;
+    }
+    .chart-title { font-size: 0.95rem; font-weight: 600; color: #cbd5e1; margin-bottom: 16px; }
+    canvas { max-height: 340px; }
+    .legend-row { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; }
+    .legend-item { display: flex; align-items: center; gap: 8px; font-size: 0.8rem; color: #94a3b8; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .table-wrap {
+      background: #1e2330;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #2d3748;
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    th { color: #64748b; font-weight: 600; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.05em; padding: 8px 12px; text-align: right; border-bottom: 1px solid #2d3748; }
+    th:first-child { text-align: left; }
+    td { padding: 10px 12px; text-align: right; color: #cbd5e1; border-bottom: 1px solid #1a2035; }
+    td:first-child { text-align: left; font-weight: 600; color: #f1f5f9; }
+    tr.actual td { color: #34d399; }
+    tr.actual td:first-child { color: #34d399; }
+    tr.proj-cons td { color: #60a5fa; }
+    tr.proj-cons td:first-child { color: #60a5fa; }
+    tr.proj-mod td { color: #a78bfa; }
+    tr.proj-mod td:first-child { color: #a78bfa; }
+    tr.proj-opt td { color: #f59e0b; }
+    tr.proj-opt td:first-child { color: #f59e0b; }
+    .assumption-badge {
+      display: inline-block;
+      background: #1e3a2e;
+      color: #34d399;
+      border: 1px solid #2d5a45;
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      margin-bottom: 24px;
+    }
+    .note { font-size: 0.75rem; color: #475569; margin-top: 24px; text-align: center; }
+  </style>
+</head>
+<body>
+
+<h1>📈 Edwin's Salary History & 2030 Projection</h1>
+<p class="subtitle">IRAS employment income records · Basic monthly salary extracted assuming 2.5-month annual bonus</p>
+
+<div class="assumption-badge">✦ Assumption: Total pay = 12 months basic + 2.5 months bonus = 14.5× basic monthly</div>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-label">Basic Monthly (2026)</div>
+    <div class="card-value">$8,850</div>
+    <div class="card-sub">$128,323 ÷ 14.5</div>
+  </div>
+  <div class="card card-green">
+    <div class="card-label">4-Year CAGR</div>
+    <div class="card-value">+14.0%</div>
+    <div class="card-sub">2022 → 2026</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Total Bonus/yr (2026)</div>
+    <div class="card-value">$22,125</div>
+    <div class="card-sub">2.5 × $8,850</div>
+  </div>
+  <div class="card card-green">
+    <div class="card-label">Projected 2030 (base)</div>
+    <div class="card-value">$12,043</div>
+    <div class="card-sub">basic/mo at 8% p.a.</div>
+  </div>
+</div>
+
+<div class="chart-wrap">
+  <div class="chart-title">Basic Monthly Salary — History + 3 Scenarios to 2030</div>
+  <canvas id="mainChart"></canvas>
+  <div class="legend-row">
+    <div class="legend-item"><div class="dot" style="background:#34d399"></div> Actual (annual ÷ 14.5)</div>
+    <div class="legend-item"><div class="dot" style="background:#60a5fa"></div> Conservative (5% p.a.)</div>
+    <div class="legend-item"><div class="dot" style="background:#a78bfa"></div> Moderate (8% p.a.)</div>
+    <div class="legend-item"><div class="dot" style="background:#f59e0b"></div> Optimistic (14% p.a. — historical CAGR)</div>
+  </div>
+</div>
+
+<div class="table-wrap">
+  <div class="chart-title">Full Breakdown — Basic Monthly · Annual Basic · Annual Total (incl. 2.5mo bonus)</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Annual Income (IRAS)</th>
+        <th>Basic/mo</th>
+        <th>Annual Basic</th>
+        <th>Bonus (2.5mo)</th>
+        <th>YoY Growth</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="actual"><td>2022 ✦</td><td>$75,931</td><td>$5,237</td><td>$62,841</td><td>$13,091</td><td>—</td></tr>
+      <tr class="actual"><td>2023 ✦</td><td>$102,735</td><td>$7,085</td><td>$85,013</td><td>$17,711</td><td>+35.3%</td></tr>
+      <tr class="actual"><td>2024 ✦</td><td>$106,129</td><td>$7,319</td><td>$87,820</td><td>$18,296</td><td>+3.3%</td></tr>
+      <tr class="actual"><td>2025 ✦</td><td>$112,676</td><td>$7,771</td><td>$93,237</td><td>$19,428</td><td>+6.2%</td></tr>
+      <tr class="actual"><td>2026 ✦</td><td>$128,323</td><td>$8,850</td><td>$106,200</td><td>$22,125</td><td>+13.9%</td></tr>
+      <tr><td colspan="6" style="padding:4px;background:#151a27"></td></tr>
+      <tr class="proj-cons"><td>2027 (5%)</td><td>$134,739</td><td>$9,292</td><td>$111,510</td><td>$23,231</td><td>+5%</td></tr>
+      <tr class="proj-cons"><td>2028 (5%)</td><td>$141,476</td><td>$9,757</td><td>$117,085</td><td>$24,393</td><td>+5%</td></tr>
+      <tr class="proj-cons"><td>2029 (5%)</td><td>$148,550</td><td>$10,245</td><td>$122,940</td><td>$25,609</td><td>+5%</td></tr>
+      <tr class="proj-cons"><td>2030 (5%)</td><td>$155,977</td><td>$10,757</td><td>$129,085</td><td>$26,893</td><td>+5%</td></tr>
+      <tr><td colspan="6" style="padding:4px;background:#151a27"></td></tr>
+      <tr class="proj-mod"><td>2027 (8%)</td><td>$138,589</td><td>$9,558</td><td>$114,696</td><td>$23,895</td><td>+8%</td></tr>
+      <tr class="proj-mod"><td>2028 (8%)</td><td>$149,676</td><td>$10,322</td><td>$123,871</td><td>$25,806</td><td>+8%</td></tr>
+      <tr class="proj-mod"><td>2029 (8%)</td><td>$161,650</td><td>$11,148</td><td>$133,780</td><td>$27,871</td><td>+8%</td></tr>
+      <tr class="proj-mod"><td>2030 (8%)</td><td>$174,582</td><td>$12,040</td><td>$144,482</td><td>$30,101</td><td>+8%</td></tr>
+      <tr><td colspan="6" style="padding:4px;background:#151a27"></td></tr>
+      <tr class="proj-opt"><td>2027 (14%)</td><td>$146,288</td><td>$10,089</td><td>$121,067</td><td>$25,223</td><td>+14%</td></tr>
+      <tr class="proj-opt"><td>2028 (14%)</td><td>$166,769</td><td>$11,501</td><td>$138,016</td><td>$28,754</td><td>+14%</td></tr>
+      <tr class="proj-opt"><td>2029 (14%)</td><td>$190,117</td><td>$13,111</td><td>$157,338</td><td>$32,779</td><td>+14%</td></tr>
+      <tr class="proj-opt"><td>2030 (14%)</td><td>$216,733</td><td>$14,947</td><td>$179,366</td><td>$37,369</td><td>+14%</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="note">✦ Actual figures from IRAS employment income assessments. Projections compound from 2026 base. Basic monthly = Annual ÷ 14.5 (12 months + 2.5 months bonus).</p>
+
+<script>
+  const MONTHS = 14.5;
+  const annual = [75931, 102735, 106129, 112676, 128323];
+  const basicHistorical = annual.map(v => Math.round(v / MONTHS));
+
+  const labels = ['2022','2023','2024','2025','2026','2027','2028','2029','2030'];
+  const base = 128323;
+
+  const toMonthly = v => Math.round(v / MONTHS);
+
+  const historical = [...basicHistorical, null, null, null, null];
+
+  const makeProj = (r) => [null,null,null,null,toMonthly(base),
+    toMonthly(base * Math.pow(1+r,1)),
+    toMonthly(base * Math.pow(1+r,2)),
+    toMonthly(base * Math.pow(1+r,3)),
+    toMonthly(base * Math.pow(1+r,4))];
+
+  const cons = makeProj(0.05);
+  const mod  = makeProj(0.08);
+  const opt  = makeProj(0.14);
+
+  new Chart(document.getElementById('mainChart').getContext('2d'), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Actual (÷14.5)',
+          data: historical,
+          borderColor: '#34d399',
+          backgroundColor: 'rgba(52,211,153,0.10)',
+          borderWidth: 3,
+          pointRadius: 6,
+          pointBackgroundColor: '#34d399',
+          tension: 0.35,
+          fill: false,
+          spanGaps: false,
+        },
+        {
+          label: 'Conservative (5%)',
+          data: cons,
+          borderColor: '#60a5fa',
+          borderWidth: 2,
+          borderDash: [6,4],
+          pointRadius: 4,
+          pointBackgroundColor: '#60a5fa',
+          tension: 0.35,
+          fill: false,
+          spanGaps: false,
+        },
+        {
+          label: 'Moderate (8%)',
+          data: mod,
+          borderColor: '#a78bfa',
+          borderWidth: 2,
+          borderDash: [6,4],
+          pointRadius: 4,
+          pointBackgroundColor: '#a78bfa',
+          tension: 0.35,
+          fill: false,
+          spanGaps: false,
+        },
+        {
+          label: 'Optimistic (14%)',
+          data: opt,
+          borderColor: '#f59e0b',
+          borderWidth: 2,
+          borderDash: [6,4],
+          pointRadius: 4,
+          pointBackgroundColor: '#f59e0b',
+          tension: 0.35,
+          fill: false,
+          spanGaps: false,
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e2330',
+          borderColor: '#334155',
+          borderWidth: 1,
+          titleColor: '#f1f5f9',
+          bodyColor: '#94a3b8',
+          padding: 12,
+          callbacks: {
+            label: ctx => ctx.raw !== null ? ` ${ctx.dataset.label}: $${ctx.raw.toLocaleString()}/mo basic` : null,
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(255,255,255,0.05)' },
+          ticks: { color: '#64748b' },
+        },
+        y: {
+          grid: { color: 'rgba(255,255,255,0.05)' },
+          ticks: {
+            color: '#64748b',
+            callback: v => '$' + v.toLocaleString()
+          },
+          min: 4000,
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
