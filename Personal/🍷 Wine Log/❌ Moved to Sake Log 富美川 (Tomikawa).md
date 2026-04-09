@@ -1,5 +1,6 @@
 ---
 base: "[[🍷 Wine Log.base]]"
+tags: [sake, tasting-log]
 Would Buy Again: Maybe
 Where: Woodstock Beverages (Sake Matsuri, Singapore)
 Created: 2026-03-29T21:14:00
@@ -15,3 +16,4 @@ Flavors:
   - light
 Grape: N/A — Rice-based (Sake/Seishu)
 ---
+> ⚠️ This entry has moved. See [[富美川 (Tomikawa) Seishu]] in the Sake Log.

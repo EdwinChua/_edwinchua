@@ -1,6 +1,10 @@
 ---
+tags: [wine, reference]
+---
+[[🍷 Wine Knowledge]]
 
 ---
+
 Source: WineFolly ([winefolly.com](http://winefolly.com/)) — verified against their published guides.
 
 All wines fit into 9 broad styles. Within each style there are hundreds of varieties. Use this as a map to discover what to try next.

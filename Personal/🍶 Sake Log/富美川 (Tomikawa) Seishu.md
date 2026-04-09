@@ -14,4 +14,6 @@ Sub-style: []
 Type: Futsu-shu
 Would Buy Again: Maybe
 Prefecture: Unknown
+tags: [sake, tasting-log, futsu-shu]
 ---
+[[🍶 Sake — Beginner's Guide]] | [[🏺 Sake & Wine Equipment]]

@@ -1,5 +1,5 @@
 ---
-
+tags: [hub, meta]
 ---
 A personal knowledge system optimized for AI-assisted retrieval and organization.
 

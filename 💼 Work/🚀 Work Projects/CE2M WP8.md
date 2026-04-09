@@ -6,7 +6,7 @@ Status: Active
 Goal: Enable users to modify SG-TIMES model input parameters and trigger model runs directly from the web app, as part of CE2M WP8.
 Start Date: 2026-01-01
 Created: 2026-04-08T14:23:00
-Tags: []
+Tags: [work, project, sg-times]
 ---
 ## Overview
 
