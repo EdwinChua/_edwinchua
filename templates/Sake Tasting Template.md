@@ -1,0 +1,40 @@
+# 🍶 Sake Log Entry Template
+
+## Basic Info
+
+- **Name**:
+- **Brewery**:
+- **Prefecture**:
+- **Type**: <!-- Junmai Daiginjo / Junmai Ginjo / Junmai / Daiginjo / Ginjo / Honjozo / Futsu-shu -->
+- **Sub-style**: <!-- Nama / Nigori / Genshu / Koshu / Sparkling / Yamahai / Kimoto -->
+
+---
+
+## Tasting
+
+- **Tasted On**: <!-- YYYY-MM-DD -->
+- **Served**: <!-- Chilled / Room Temp / Warm -->
+- **Dryness Feel**: <!-- Very Dry / Dry / Neutral / Slightly Sweet / Sweet -->
+- **SMV**: <!-- Sake Meter Value — positive = dry, negative = sweet -->
+- **Flavors**: <!-- rice / umami / melon / pear / apple / floral / tropical / earthy / nutty / mineral / citrus / creamy -->
+
+---
+
+## Rating
+
+- **Rating**: <!-- 😐 Meh / 🙂 Liked it / 😍 Loved it / 🤩 Wow -->
+- **Would Buy Again**: <!-- Yes / Maybe / No -->
+
+---
+
+## Purchase
+
+- **Where**:
+- **Price**:
+- **Discount**:
+
+---
+
+## Notes
+
+<!-- Free-form tasting notes, context, comparisons, food pairings, etc. -->
