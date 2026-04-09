@@ -1,0 +1,37 @@
+# 📋 Tasks
+
+filters:
+  and:
+    - note["base"] == link("📋 Tasks.base")
+properties:
+  file.name:
+    displayName: Task
+  Context:
+    displayName: Context
+  Tags:
+    displayName: Tags
+  Due Date:
+    displayName: Due Date
+  Created:
+    displayName: Created
+  Last Edited:
+    displayName: Last Edited
+  Priority:
+    displayName: Priority
+  Notes:
+    displayName: Notes
+  Status:
+    displayName: Status
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Context
+      - Tags
+      - Due Date
+      - Created
+      - Last Edited
+      - Priority
+      - Notes
+      - Status

@@ -1,0 +1,53 @@
+filters:
+  and:
+    - note["base"] == link("🍶 Sake Log.base")
+properties:
+  file.name:
+    displayName: Name
+  Notes:
+    displayName: Notes
+  Rating:
+    displayName: Rating
+  SMV:
+    displayName: SMV
+  Where:
+    displayName: Where
+  Dryness Feel:
+    displayName: Dryness Feel
+  Brewery:
+    displayName: Brewery
+  Flavors:
+    displayName: Flavors
+  Created:
+    displayName: Created
+  Tasted On:
+    displayName: Tasted On
+  Served:
+    displayName: Served
+  Sub-style:
+    displayName: Sub-style
+  Type:
+    displayName: Type
+  Would Buy Again:
+    displayName: Would Buy Again
+  Prefecture:
+    displayName: Prefecture
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Notes
+      - Rating
+      - SMV
+      - Where
+      - Dryness Feel
+      - Brewery
+      - Flavors
+      - Created
+      - Tasted On
+      - Served
+      - Sub-style
+      - Type
+      - Would Buy Again
+      - Prefecture

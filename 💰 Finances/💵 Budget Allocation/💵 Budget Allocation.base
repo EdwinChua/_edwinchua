@@ -1,0 +1,23 @@
+filters:
+  and:
+    - note["base"] == link("💵 Budget Allocation.base")
+formulas:
+  Percentage: (((note["Monthly Amount"] / 7553) * 100) * 10).round() / 10
+properties:
+  file.name:
+    displayName: Description
+  Monthly Amount:
+    displayName: Monthly Amount
+  Notes:
+    displayName: Notes
+  Category:
+    displayName: Category
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Monthly Amount
+      - Notes
+      - Category
+      - formula.Percentage

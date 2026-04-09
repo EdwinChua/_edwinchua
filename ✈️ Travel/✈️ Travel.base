@@ -1,0 +1,29 @@
+filters:
+  and:
+    - note["base"] == link("✈️ Travel.base")
+properties:
+  file.name:
+    displayName: Name
+  Country:
+    displayName: Country
+  Status:
+    displayName: Status
+  Created:
+    displayName: Created
+  Tags:
+    displayName: Tags
+  date:Travel Dates:start:
+    displayName: date:Travel Dates:start
+  Notes:
+    displayName: Notes
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Country
+      - Status
+      - Created
+      - Tags
+      - date:Travel Dates:start
+      - Notes

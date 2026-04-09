@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "3c9e78cc382a7e13",
+    "type": "split",
+    "children": [
+      {
+        "id": "42ebf0a91629a53b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5bd4d671b8d8c36c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa8aad55f1efd4ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ebae80cc2455d7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffa793dfad093c55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "38d3a813d4be619d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "243d236101093692",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "07ad75e264404f00",
+    "type": "split",
+    "children": [
+      {
+        "id": "3178bf30a126c3ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "596660939cf076d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "e2439784f543c29d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "667a54569f67d3f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9302982fe653e6ae",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1904bc0f7b64a1bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "eb68ff7f8eb5f401",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 509.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "eb68ff7f8eb5f401",
+  "lastOpenFiles": [
+    "New Text Document.txt",
+    "Untitled.canvas",
+    "🧠 Second Brain.md",
+    "🇫🇷 France — Wine Regions Overview.png",
+    "2026-04-09.md",
+    "💰 Finances/💵 Budget Allocation/💵 Budget Allocation.base",
+    "💰 Finances/💰 Cash Flow/CPF deductions.md",
+    "💰 Finances/💰 Cash Flow/💰 Cash Flow.base",
+    "💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
+    "💰 Finances/💰 Cash Flow/Gross Income.md",
+    "💼 Work/📊 Year-End Impact Report — 2026.md",
+    "📚 Resources/📚 Resources.base",
+    "✈️ Travel/✈️ Travel.base",
+    "🍶 Sake Log/🍶 Sake Log.base",
+    "🍶 Sake Log/富美川 (Tomikawa) Seishu.md",
+    "📝 Notes/📝 Notes.base",
+    "📥 Inbox/📥 Inbox.base",
+    "💰 Finances/📈 Income Over Years/📈 Income Over Years.base",
+    "Welcome.md",
+    "🍶 Sake Log",
+    "🍷 Wine Log/❌ Moved to Sake Log 富美川 (Tomikawa).md",
+    "🍷 Wine Log/🍷 Wine Log.base",
+    "💰 Finances/💰 Finances.md",
+    "💰 Finances/💵 Budget Allocation/PruLink Protection Plus A-C.md",
+    "💰 Finances/💵 Budget Allocation/AVIVA group term life.md",
+    "💰 Finances/💵 Budget Allocation/Parents.md",
+    "💰 Finances/💵 Budget Allocation/Power and Water.md",
+    "💰 Finances/💵 Budget Allocation/Income Tax (GIRO Installment).md",
+    "💰 Finances/💵 Budget Allocation/Whizcomms.md",
+    "💰 Finances/💵 Budget Allocation/Fitness First Gym (Girlfriend).md",
+    "💰 Finances/💵 Budget Allocation/Google Drive.md",
+    "💰 Finances/💵 Budget Allocation/Youtube Premium.md",
+    "💰 Finances/💵 Budget Allocation/Fitness First Gym (Edwin).md",
+    "💰 Finances/💵 Budget Allocation/PruFlexiCash (6th Series).md",
+    "💰 Finances/💵 Budget Allocation/PruLife Multiplier Flex.md",
+    "💰 Finances/💵 Budget Allocation/Investment Cash.md",
+    "💰 Finances/💵 Budget Allocation/SIMBA.md",
+    "💰 Finances/💵 Budget Allocation/Domain crazy.technology 1.md",
+    "Untitled 1.canvas"
+  ]
+}

@@ -1,0 +1,35 @@
+filters:
+  and:
+    - note["base"] == link("📈 Income Over Years.base")
+properties:
+  file.name:
+    displayName: Year
+  Donations:
+    displayName: Donations
+  Total Reliefs:
+    displayName: Total Reliefs
+  Chargeable Income:
+    displayName: Chargeable Income
+  Tax Payable:
+    displayName: Tax Payable
+  YoY Growth %:
+    displayName: YoY Growth %
+  Assessment Date:
+    displayName: Assessment Date
+  Notes:
+    displayName: Notes
+  Employment Income:
+    displayName: Employment Income
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Donations
+      - Total Reliefs
+      - Chargeable Income
+      - Tax Payable
+      - YoY Growth %
+      - Assessment Date
+      - Notes
+      - Employment Income

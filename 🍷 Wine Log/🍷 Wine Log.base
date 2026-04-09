@@ -1,0 +1,52 @@
+# 🍷 Wine Log
+
+filters:
+  and:
+    - note["base"] == link("🍷 Wine Log.base")
+properties:
+  file.name:
+    displayName: Name
+  Would Buy Again:
+    displayName: Would Buy Again
+  Where:
+    displayName: Where
+  Created:
+    displayName: Created
+  Notes:
+    displayName: Notes
+  Type:
+    displayName: Type
+  Price Range:
+    displayName: Price Range
+  Vintage:
+    displayName: Vintage
+  Region:
+    displayName: Region
+  Country:
+    displayName: Country
+  Rating:
+    displayName: Rating
+  Tasted On:
+    displayName: Tasted On
+  Flavors:
+    displayName: Flavors
+  Grape:
+    displayName: Grape
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Would Buy Again
+      - Where
+      - Created
+      - Notes
+      - Type
+      - Price Range
+      - Vintage
+      - Region
+      - Country
+      - Rating
+      - Tasted On
+      - Flavors
+      - Grape

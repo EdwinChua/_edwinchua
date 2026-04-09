@@ -1,0 +1,14 @@
+filters:
+  and:
+    - note["base"] == link("💰 Cash Flow.base")
+properties:
+  file.name:
+    displayName: Item
+  Amount:
+    displayName: Amount
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Amount

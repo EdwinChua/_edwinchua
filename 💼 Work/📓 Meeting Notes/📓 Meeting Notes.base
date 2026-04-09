@@ -1,0 +1,31 @@
+# 📓 Meeting Notes
+
+filters:
+  and:
+    - note["base"] == link("📓 Meeting Notes.base")
+properties:
+  file.name:
+    displayName: Meeting
+  Action Items:
+    displayName: Action Items
+  Date:
+    displayName: Date
+  Created:
+    displayName: Created
+  Type:
+    displayName: Type
+  Tags:
+    displayName: Tags
+  Attendees:
+    displayName: Attendees
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Action Items
+      - Date
+      - Created
+      - Type
+      - Tags
+      - Attendees

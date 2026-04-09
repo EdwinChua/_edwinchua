@@ -1,0 +1,37 @@
+# 🎯 Goals & Appraisals
+
+filters:
+  and:
+    - note["base"] == link("🎯 Goals & Appraisals.base")
+properties:
+  file.name:
+    displayName: Title
+  Rating:
+    displayName: Rating
+  Created:
+    displayName: Created
+  Notes:
+    displayName: Notes
+  Last Edited:
+    displayName: Last Edited
+  Period:
+    displayName: Period
+  Status:
+    displayName: Status
+  Type:
+    displayName: Type
+  Date:
+    displayName: Date
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Rating
+      - Created
+      - Notes
+      - Last Edited
+      - Period
+      - Status
+      - Type
+      - Date

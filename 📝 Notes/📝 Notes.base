@@ -1,0 +1,29 @@
+filters:
+  and:
+    - note["base"] == link("📝 Notes.base")
+properties:
+  file.name:
+    displayName: Name
+  Area:
+    displayName: Area
+  Type:
+    displayName: Type
+  Source:
+    displayName: Source
+  Tags:
+    displayName: Tags
+  Created:
+    displayName: Created
+  Last Edited:
+    displayName: Last Edited
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Area
+      - Type
+      - Source
+      - Tags
+      - Created
+      - Last Edited

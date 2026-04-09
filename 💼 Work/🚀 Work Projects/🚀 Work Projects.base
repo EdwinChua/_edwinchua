@@ -1,0 +1,37 @@
+# 🚀 Work Projects
+
+filters:
+  and:
+    - note["base"] == link("🚀 Work Projects.base")
+properties:
+  file.name:
+    displayName: Project
+  Priority:
+    displayName: Priority
+  Last Edited:
+    displayName: Last Edited
+  Status:
+    displayName: Status
+  Goal:
+    displayName: Goal
+  Start Date:
+    displayName: Start Date
+  Due Date:
+    displayName: Due Date
+  Created:
+    displayName: Created
+  Tags:
+    displayName: Tags
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Priority
+      - Last Edited
+      - Status
+      - Goal
+      - Start Date
+      - Due Date
+      - Created
+      - Tags
