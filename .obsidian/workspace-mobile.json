@@ -174,18 +174,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "audio-recorder:Start/stop recording": false
+      "bases:Create new base": false
     }
   },
   "active": "3d7a57fc73eea288",
   "lastOpenFiles": [
+    "templates/Project Template.md",
+    "templates/Meeting Note template.md",
+    "templates",
+    "/templates/Project Template.md",
+    "/templates/Meeting Note template.md",
+    "/09-Apr-2026.md",
+    "/templates",
     "Untitled.md",
     "09-Apr-2026.md",
     "LCA.md",
@@ -213,14 +221,7 @@
     "💼 Work/📋 Tasks",
     "💼 Work/📝 Impact Log — 2026.md",
     "💼 Work/🚀 Work Projects",
-    "💼 Work/🎯 Goals & Appraisals",
-    "💼 Work",
     "Personal/💰 Finances/📈 Income Over Years/2022.md",
-    "Personal/💰 Finances/📈 Income Over Years/2026.md",
-    "Personal/💰 Finances/📈 Income Over Years/2023.md",
-    "Personal/💰 Finances/📈 Income Over Years/2024.md",
-    "Personal/💰 Finances/📈 Income Over Years/2025.md",
-    "Personal/💰 Finances/💰 Cash Flow/Gross Income.md",
-    "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md"
+    "Personal/💰 Finances/📈 Income Over Years/2026.md"
   ]
 }
