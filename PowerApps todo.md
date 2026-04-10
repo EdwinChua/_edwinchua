@@ -39,7 +39,7 @@
 	    - [ ] Update flow to indicate this fields
 	    - [ ] Test
 	- ARTC
-	    - [ ] In sharepoint, create 2 columns - Exception PO (Y/N), Exception Remarks
+	    - [x] In sharepoint, create 2 columns - Exception PO (Y/N), Exception Remarks
 	    - [ ] In powerapps, add the two fields - show hide remarks, mandatory if ExPO is yes
 	    - [ ] Update flow to indicate this fields
 	    - [ ] Test
