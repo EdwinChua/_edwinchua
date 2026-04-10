@@ -14,14 +14,16 @@
 
 
 - commodity code 
-	- [ ] create shared commodity code sharepoint list
+	- [x] create shared commodity code sharepoint list
     - SIMTech
-	    - [ ] add 2 fields "Commodity Code", "Material Group". CC selection filters MG
+	    - [x] in sharepoint, add 2 columns  "Commodity Code", "Material Group".
+	    - [ ] in PowerApp, add 2 fields "Commodity Code", "Material Group". CC selection filters MG
 	    - [ ] MG field is optional
 		* [ ] update flow to include in email communication
 		* [ ] test
     - ARTC
-	    - [ ] add 2 fields "Commodity Code", "Material Group". CC selection filters MG
+	    - [ ] in sharepoint, add 2 columns  "Commodity Code", "Material Group".
+	    - [ ] in PowerApp, add 2 fields "Commodity Code", "Material Group". CC selection filters MG
 	    - [ ] MG field is optional
 		* [ ] update flow to include in email communication
 		* [ ] test
