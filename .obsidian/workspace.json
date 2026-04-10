@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71b2de1786d9137c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📅 Daily Notes/10-Apr-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10-Apr-2026"
-            }
-          },
-          {
             "id": "9d41a063d9b7411e",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "PowerApps todo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,10 +196,12 @@
   },
   "active": "9d41a063d9b7411e",
   "lastOpenFiles": [
-    "Pasted image 20260410114247.png",
-    "Pasted image 20260410114242.png",
+    "TODO.md",
+    "💼 Work/🚀 Work Projects/ADVISE LCA Platform/ADVISE LCA Platform.md",
     "PowerApps todo.md",
     "📅 Daily Notes/10-Apr-2026.md",
+    "Pasted image 20260410114247.png",
+    "Pasted image 20260410114242.png",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
     "Personal/🍷 Wine Knowledge/🌊 Loire Valley — Wine Region.md",
     "🧠 Second Brain.md",
@@ -249,7 +236,6 @@
     "🇫🇷 France — Wine Regions Overview.png",
     "2026-04-09.md",
     "Personal/💰 Finances/💰 Cash Flow/CPF deductions.md",
-    "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md",
-    "Personal/💰 Finances/💰 Cash Flow/Gross Income.md"
+    "Personal/💰 Finances/💰 Cash Flow/Total Allocated Expenses.md"
   ]
 }
