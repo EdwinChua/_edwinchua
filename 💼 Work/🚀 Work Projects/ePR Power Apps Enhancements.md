@@ -7,7 +7,7 @@ Goal: Align ePR system with A*STAR-wide ERP refresh requirements. Scope covers P
 Start Date: 2026-04-08
 Due Date: 2026-04-22
 Created: 2026-04-08T14:19:00
-Tags: []
+Tags: [work, project, powerplatform, erp]
 ---
 ## Overview
 

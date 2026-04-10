@@ -1,5 +1,5 @@
 ---
-
+tags: [lca, work, investigation, bugs]
 ---
 > **Status:** Open — root cause confirmed, fix direction TBD
 
@@ -222,3 +222,7 @@ WHERE ii.name ILIKE '%GWP100%';
 - [ ] Establish whether this is a **data import gap** or an **expected limitation** of the EF dataset (e.g. indicator only exists in CF datasets like IPCC 2021)
 - [ ] If import gap: identify which import pipeline is dropping the rows and fix
 - [ ] If dataset limitation: decide whether to surface a warning in the UI when indicators have partial coverage across exchanges
+
+---
+
+[[ADVISE LCA Platform]] | [[⚙️ LCA Engine — Context & Known Issues]] | [[🐛 Known Bugs — Priority Fixes]]

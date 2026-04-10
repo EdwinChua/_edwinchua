@@ -1,6 +1,10 @@
 ---
+tags: [sake, reference, personal]
+---
+[[🍷 Wine Knowledge]]
 
 ---
+
 Source: Decanter, True Sake, Boutique Japan, Wine Folly-style verified sources.
 
 Sake is Japan's national drink, made from just four ingredients: rice, water, yeast, and koji mold. Like wine, the quality, style, and flavor vary enormously depending on how it's made and where it's from. Since you enjoy dry sake, you already have great taste — dry sake is where the most complexity lives.
@@ -118,7 +122,7 @@ Since you enjoy dry whites (like Grüner Veltliner) and are exploring wine, here
 | Crisp dry white (Sauvignon Blanc) | Junmai Ginjo, dry (+3 SMV) |
 | Rich oaked white (Chardonnay) | Junmai, served warm |
 | Mineral, lean white (Chablis) | Dry Daiginjo, highly polished |
-| Complex, aged white (white Burgundy) | Aged Junmai Daiginjo or Koshu |
+| Complex, aged white ([[🍇 Burgundy (Bourgogne) — Wine Region\|white Burgundy]]) | Aged Junmai Daiginjo or Koshu |
 | Champagne | Sparkling Junmai Daiginjo |
 
 > 💡 If you love dry, mineral whites — you'll likely love **Junmai Daiginjo** served well-chilled. The texture is silky, the finish clean, and the complexity rivals good white Burgundy.

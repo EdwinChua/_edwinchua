@@ -1,5 +1,9 @@
 ---
 cover: "[[🇫🇷 France — Wine Regions Overview.png]]"
+tags: [wine, france, reference]
+---
+[[🍷 Wine Knowledge]]
+
 ---
 ![France Wine Map](https://www.guildsomm.com/static/media/france-wine-map.jpg)
 
@@ -17,7 +21,7 @@ This is a full overview of **all major French wine regions**. France is the most
 
 **Grapes:** Pinot Noir (red), Chardonnay (white)
 
-Burgundy is considered the holy grail of wine. Wines are elegant, earthy, and often age for decades. Very expensive at the top end, but affordable entry-level Bourgogne exists. See the dedicated Burgundy page for the sub-region map.
+Burgundy is considered the holy grail of wine. Wines are elegant, earthy, and often age for decades. Very expensive at the top end, but affordable entry-level Bourgogne exists. See [[🍇 Burgundy (Bourgogne) — Wine Region]] for the sub-region map.
 
 ### 💜 Champagne
 
@@ -41,7 +45,7 @@ Northern Rhône = powerful single-varietal Syrah (Côte-Rôtie, Hermitage). Sout
 
 **Grapes:** Sauvignon Blanc, Chenin Blanc, Cabernet Franc, Melon (Muscadet)
 
-France’s most diverse region — stretches 1,000km along the Loire river. See the dedicated Loire page.
+France’s most diverse region — stretches 1,000km along the Loire river. See [[🌊 Loire Valley — Wine Region]] for the dedicated Loire page.
 
 ### 🟤 Alsace
 

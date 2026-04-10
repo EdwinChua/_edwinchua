@@ -1,6 +1,10 @@
 ---
+tags: [wine, spain, reference]
+---
+[[🍷 Wine Knowledge]]
 
 ---
+
 ## 🗺️ The Map
 
 Spain is the world’s largest wine country by vineyard area. The map shows regions across a vast, diverse landscape — from cool Atlantic coasts (Galicia, Basque Country) to hot inland plateaus (La Mancha, Extremadura) to Mediterranean coasts (Valencia, Murcia, Catalunya).

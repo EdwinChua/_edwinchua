@@ -1,5 +1,5 @@
 ---
-
+tags: [finance, personal]
 ---
 Central hub for tracking income, expenses, and financial goals.
 
