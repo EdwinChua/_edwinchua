@@ -14,7 +14,9 @@
 
 
 - commodity code 
-    - requires some list to reference
+    - SIMTech
+	    - [ ] 
+    - ARTC
     - either in a sharepoint list (if data has multiple fields) or i can create a "choices" column in sharepoint with plaintext options 
 
 - environmental consideration
