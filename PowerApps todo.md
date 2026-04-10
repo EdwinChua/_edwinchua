@@ -31,7 +31,15 @@
 - environmental consideration
     - [x] requires writeup (joanne helping)
     - SIMTech
-	    - [ ] 
+	    - [ ] sharepoint, add Environmental Consideration column
+	    - [ ] powerapp, add yes/no with tool tip
+	    - [ ] update flow to include in email communication
+	    - [ ] Test
+	- ARTC
+	    - [ ] sharepoint, add Environmental Consideration column
+	    - [ ] powerapp, add yes/no with tool tip
+	    - [ ] update flow to include in email communication
+	    - [ ] Test
 
 - Exception PO (yes/No) - with a comment box to indicate what exception PO is this
     - [x] ![[Pasted image 20260410114247.png]]
