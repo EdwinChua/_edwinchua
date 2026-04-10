@@ -14,13 +14,21 @@
 
 
 - commodity code 
+	- [ ] create shared commodity code sharepoint list
     - SIMTech
-	    - [ ] 
+	    - [ ] add 2 fields "Commodity Code", "Material Group". CC selection filters MG
+	    - [ ] MG field is optional
+		* [ ] update flow to include in email communication
+		* [ ] test
     - ARTC
-    - either in a sharepoint list (if data has multiple fields) or i can create a "choices" column in sharepoint with plaintext options 
+	    - [ ] add 2 fields "Commodity Code", "Material Group". CC selection filters MG
+	    - [ ] MG field is optional
+		* [ ] update flow to include in email communication
+		* [ ] test
 
 - environmental consideration
-    - requires writeup (joanne helping)
+    - [ ] requires writeup (joanne helping)
 
 - Exception PO (yes/No) - with a comment box to indicate what exception PO is this
-    - any text? or just "Exception PO (Y/N)" and checkbox?
+    - [ ] ![[Pasted image 20260410114247.png]]
+    - [ ] 
