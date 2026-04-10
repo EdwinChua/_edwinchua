@@ -8,7 +8,7 @@
 		* [ ] test
 	* ARTC
 		* [x] create column in sharepoint
-		* [ ] add to powerapp
+		* [x] add to powerapp
 		* [ ] update flow to include in email communication
 		* [ ] test
 
