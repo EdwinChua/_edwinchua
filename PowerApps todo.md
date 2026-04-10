@@ -30,5 +30,5 @@
     - [ ] requires writeup (joanne helping)
 
 - Exception PO (yes/No) - with a comment box to indicate what exception PO is this
-    - [ ] ![[Pasted image 20260410114247.png]]
+    - [x] ![[Pasted image 20260410114247.png]]
     - [ ] 
