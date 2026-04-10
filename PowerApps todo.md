@@ -37,7 +37,7 @@
 	    - [ ] Test
 	- ARTC
 	    - [x] sharepoint, add Environmental Consideration column
-	    - [ ] powerapp, add yes/no with tool tip
+	    - [x] powerapp, add yes/no with tool tip
 	    - [ ] update flow to include in email communication
 	    - [ ] Test
 
