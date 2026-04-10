@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "10-Apr-2026"
             }
+          },
+          {
+            "id": "9d41a063d9b7411e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PowerApps todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PowerApps todo"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,8 +209,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71b2de1786d9137c",
+  "active": "9d41a063d9b7411e",
   "lastOpenFiles": [
+    "PowerApps todo.md",
     "📅 Daily Notes/10-Apr-2026.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
     "Personal/🍷 Wine Knowledge/🌊 Loire Valley — Wine Region.md",
@@ -205,7 +221,6 @@
     "📅 Daily Notes",
     "LCA.md",
     "templates/Sake Tasting Template.md",
-    "Untitled.md",
     "Life Cycle Assessment (LCA).md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/🔍 Investigation — Zero Emission Bug.md",
