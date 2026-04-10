@@ -35,7 +35,7 @@
     - [x] ![[Pasted image 20260410114247.png]]
     - SIMTech
 	    - [x] In sharepoint, create 2 columns - Exception PO (Y/N), Exception Remarks
-	    - [ ] In powerapps, add the two fields - show hide remarks, mandatory if ExPO is yes
+	    - [x] In powerapps, add the two fields - show hide remarks, mandatory if ExPO is yes
 	    - [ ] Update flow to indicate this fields
 	    - [ ] Test
 	- ARTC
