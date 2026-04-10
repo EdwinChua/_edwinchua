@@ -29,7 +29,9 @@
 		* [ ] test
 
 - environmental consideration
-    - [ ] requires writeup (joanne helping)
+    - [x] requires writeup (joanne helping)
+    - SIMTech
+	    - [ ] 
 
 - Exception PO (yes/No) - with a comment box to indicate what exception PO is this
     - [x] ![[Pasted image 20260410114247.png]]
