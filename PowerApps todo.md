@@ -5,7 +5,7 @@
 		* [x] create column in sharepoint
 		* [x] add to powerapp
 		* [x] update flow to include in email communication
-		* [ ] test
+		* [x] test
 	* ARTC
 		* [x] create column in sharepoint
 		* [x] add to powerapp
@@ -20,7 +20,7 @@
 	    - [x] in PowerApp, add 2 fields "Commodity Code", "Material Group". CC selection filters MG
 	    - [x] MG field is optional
 		* [x] update flow to include in email communication
-		* [ ] test
+		* [x] test
     - ARTC
 	    - [x] in sharepoint, add 2 columns  "Commodity Code", "Material Group".
 	    - [x] in PowerApp, add 2 fields "Commodity Code", "Material Group". CC selection filters MG
@@ -34,7 +34,7 @@
 	    - [x] sharepoint, add Environmental Consideration column
 	    - [x] powerapp, add yes/no with tool tip
 	    - [x] update flow to include in email communication
-	    - [ ] Test
+	    - [x] Test
 	- ARTC
 	    - [x] sharepoint, add Environmental Consideration column
 	    - [x] powerapp, add yes/no with tool tip
@@ -47,7 +47,7 @@
 	    - [x] In sharepoint, create 2 columns - Exception PO (Y/N), Exception Remarks
 	    - [x] In powerapps, add the two fields - show hide remarks, mandatory if ExPO is yes
 	    - [x] Update flow to indicate this fields
-	    - [ ] Test
+	    - [x] Test
 	- ARTC
 	    - [x] In sharepoint, create 2 columns - Exception PO (Y/N), Exception Remarks
 	    - [x] In powerapps, add the two fields - show hide remarks, mandatory if ExPO is yes

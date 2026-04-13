@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Gemma.md",
+                "file": "Gemma 4 Local Setup Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup Gemma"
+              "title": "Gemma 4 Local Setup Guide"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AI",
+                "query": "tag:#instructions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,9 +208,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38d3a813d4be619d",
+  "active": "9d41a063d9b7411e",
   "lastOpenFiles": [
-    "Setup Gemma.md",
+    "Gemma 4 Local Setup Guide.md",
     "PowerApps todo.md",
     "Personal projects.md",
     "TODO.md",
