@@ -48,9 +48,26 @@
               "icon": "lucide-file",
               "title": "ADVISE Fresh setup"
             }
+          },
+          {
+            "id": "711929e944a91490",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#instructions",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,8 +240,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9bb9611bf1b8df6a",
+  "active": "711929e944a91490",
   "lastOpenFiles": [
+    "📅 Daily Notes/22-Apr-2026.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled.md",
     "ADVISE Fresh setup.md",
     "Gemma 4 Local Setup Guide.md",
     "PowerApps todo.md",
@@ -253,18 +275,13 @@
     "💼 Work/🎯 Goals & Appraisals/🎯 Goals & Appraisals.base",
     "💼 Work/🎯 Goals & Appraisals/Year-End Appraisal — 2026.md",
     "Personal/💰 Finances/📈 Income Over Years/2026.md",
-    "Personal/🏺 Sake & Wine Equipment.md",
-    "Personal/🍷 Wine Knowledge/🍷 Wine Knowledge.md",
     "Personal/💰 Finances/💵 Budget Allocation/💵 Budget Allocation.base",
-    "Personal/🍶 Sake Log/富美川 (Tomikawa) Seishu.md",
     "📥 Inbox.base",
     "📝 Notes.base",
     "📚 Resources/📚 Resources.base",
     "💰 Finances/📈 Salary Projection — 2026 to 2030.html.tmp.5.1775711015917",
     "📝 Notes/📝 Notes.base",
     "📥 Inbox/📥 Inbox.base",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
     "🇫🇷 France — Wine Regions Overview.png"
   ]
 }
