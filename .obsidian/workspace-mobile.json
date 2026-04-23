@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal projects.md",
+                "file": "templates/Sake Tasting Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal projects"
+              "title": "Sake Tasting Template"
             }
           }
         ],
@@ -197,13 +197,19 @@
   },
   "active": "88d8d8e2774d58fa",
   "lastOpenFiles": [
+    "Personal projects.md",
+    "Untitled",
+    "💳 Card consolidation.md",
+    "/💳 Card consolidation.md",
+    "/ADVISE Fresh setup.md",
+    "/📅 Daily Notes/22-Apr-2026.md",
+    "📅 Daily Notes/22-Apr-2026.md",
+    "/📅 Daily Notes",
     "ADVISE Fresh setup.md",
     "Gemma 4 Local Setup Guide.md",
     "/PowerApps todo.md",
     "/Gemma 4 Local Setup Guide.md",
-    "/ADVISE Fresh setup.md",
     "PowerApps todo.md",
-    "Personal projects.md",
     "09-Apr-2026.md",
     "TODO.md",
     "Pasted image 20260410114242.png",
@@ -221,21 +227,14 @@
     "/💼 Work/🚀 Work Projects/ADVISE LCA Platform/📖 LCA Basics — Matrix Method Reference.md",
     "/💼 Work/🚀 Work Projects/ADVISE LCA Platform/🐛 Known Bugs — Priority Fixes.md",
     "/💼 Work/🚀 Work Projects/ADVISE LCA Platform/⚙️ LCA Engine — Context & Known Issues.md",
-    "/💼 Work/🚀 Work Projects/ADVISE LCA Platform/LCA.md",
-    "/💼 Work/🚀 Work Projects/ADVISE LCA Platform/ADVISE LCA Platform.md",
-    "/💼 Work/📝 Impact Log — 2026.md",
     "/💼 Work/📓 Meeting Notes/📓 Meeting Notes.base",
     "/💼 Work/📓 Meeting Notes",
-    "/💼 Work/💼 Work.md",
-    "/TODO.md",
     "/Personal/💰 Finances",
     "/Personal/🍷 Wine Log",
     "/Personal/🍷 Wine Knowledge",
     "/Personal/🍶 Sake Log",
     "/Pasted image 20260410114247.png",
     "/Pasted image 20260410114242.png",
-    "/📅 Daily Notes",
-    "/💼 Work/🚀 Work Projects/ADVISE LCA Platform",
-    "/💼 Work/🚀 Work Projects"
+    "/💼 Work/🚀 Work Projects/ADVISE LCA Platform"
   ]
 }
