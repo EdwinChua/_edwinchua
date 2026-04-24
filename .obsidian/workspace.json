@@ -50,21 +50,21 @@
             }
           },
           {
-            "id": "b710bb8e15ae6b97",
+            "id": "967a1e2271d71b93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💳 Card consolidation.md",
+                "file": "SEFR 24 Apr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "💳 Card consolidation"
+              "title": "SEFR 24 Apr"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 509.5
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,17 +235,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffa793dfad093c55",
+  "active": "967a1e2271d71b93",
   "lastOpenFiles": [
-    "💳 Card consolidation.md",
+    "SEFR 24 Apr.md",
     "TODO.md",
+    "PowerApps todo.md",
+    "💳 Card consolidation.md",
     "ADVISE Fresh setup.md",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "📅 Daily Notes/22-Apr-2026.md",
     "Gemma 4 Local Setup Guide.md",
-    "PowerApps todo.md",
     "Personal projects.md",
     "💼 Work/🚀 Work Projects/ADVISE LCA Platform/ADVISE LCA Platform.md",
     "📅 Daily Notes/10-Apr-2026.md",
