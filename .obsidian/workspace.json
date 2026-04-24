@@ -117,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -237,7 +236,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9bb9611bf1b8df6a",
+  "active": "ffa793dfad093c55",
   "lastOpenFiles": [
     "💳 Card consolidation.md",
     "TODO.md",
