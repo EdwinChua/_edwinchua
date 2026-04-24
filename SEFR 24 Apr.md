@@ -6,3 +6,5 @@ EF update frequency and update?
 
 Technical document (with SGX + ACRA)
 
+Cost for the next 4 years
+* what is needed for devops
