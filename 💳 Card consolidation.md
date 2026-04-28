@@ -2,8 +2,8 @@
 ### Before cancelling
 
 #### UOB PRVI Miles (urgent — points die on closure)
-- [ ] Check UNI$ balance in UOB TMRW app
-- [ ] Convert UNI$ → KrisFlyer miles (fee applies per conversion)
+- [x] Check UNI$ balance in UOB TMRW app
+- [x] Convert UNI$ → KrisFlyer miles (fee applies per conversion)
 - [ ] Confirm miles credited to KrisFlyer account
 - [ ] Cancel card via UOB TMRW app or call 1800 222 2121
 
@@ -43,3 +43,7 @@
 - Do not cancel cards simultaneously — space them out by a few weeks
 - DBS Altitude AMEX can be reassessed after 6 months with Vantage
 - KrisFlyer miles expire 3 years from credit date — monitor oldest balance
+
+### Subscriptions to transfer
+- [ ] Amazon prime membership
+- [ ] 
