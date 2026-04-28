@@ -23,7 +23,7 @@
 - [ ] Cancel card via DBS digibank app
 
 #### Maybank Family & Friends Mastercard
-- [ ] Check if any cashback is pending for current month
+- [x] Check if any cashback is pending for current month
 - [ ] Cancel card via Maybank hotline 1800 629 2265
 
 ### Apply for replacement
