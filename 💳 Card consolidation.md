@@ -45,5 +45,8 @@
 - KrisFlyer miles expire 3 years from credit date — monitor oldest balance
 
 ### Subscriptions to transfer
-- [ ] Amazon prime membership
+- [ ] Amazon prime membership (Mb F&F)
+- [ ] Google One (Mb Horizon)
+- [ ] Adobe (Mb Horizon)
+- [ ] Prudential (Mb Horizon)
 - [ ] 
