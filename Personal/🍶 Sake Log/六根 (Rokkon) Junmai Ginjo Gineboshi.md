@@ -1,9 +1,9 @@
 ---
 base: "[[🍶 Sake Log.base]]"
-Notes: "Bought at Sake Matsuri Singapore (Woodstock Beverages). Elegant and aromatic — nose of ripe tropical fruit, pomelo, mint, and fresh herbs. Palate is smooth and rounded with soft rice sweetness and gentle acidity in harmony. Clean, pleasant finish. Slightly sweet at SMV -2 despite the ginjo dryness you might expect. Gin-eboshi is an Aomori-bred rice variety — 100% local to the brewery. First brewery in Aomori to go all-junmai (2016) and kosher certified. Award-winning: IWC 2022 Silver, Singapore Sake Challenge 2023 Silver, Delicious Sake in a Wine Glass Award 2023 Grand Gold, Oriental Sake Awards 2025 Gold. JP retail ¥1,870 / 720ml. SGD price at Woodstock est. $76–$92."
+Notes: "Bought at Sake Matsuri Singapore (Woodstock Beverages). Elegant and aromatic — nose of ripe tropical fruit, pomelo, mint, and fresh herbs. Palate is smooth and rounded with soft rice sweetness and gentle acidity in harmony. Clean, pleasant finish. Slightly sweet at SMV -2 despite the ginjo polish level. Gin-eboshi is an Aomori-bred sake rice — 100% local terroir. Fun fact: parent company Chartered Group is Singapore-based, explaining the strong SG distribution. Award-winning: IWC 2022 Silver, Singapore Sake Challenge 2023 Silver, Delicious Sake in a Wine Glass Award 2023 Grand Gold, Oriental Sake Awards 2025 Gold. JP retail ¥1,870 / 720ml. Woodstock SG: regular SGD $78, on sale SGD $74."
 Rating: 😍 Loved it
 Where: Woodstock Beverages (Sake Matsuri, Singapore)
-Price: "SGD ~$76–$92 (JP retail ¥1,870 / 720ml)"
+Price: "SGD $78 (on sale $74) / JP retail ¥1,870 per 720ml"
 Dryness Feel: Slightly Sweet
 SMV: -2
 Brewery: Matsumidori Shuzo (松緑酒造)
