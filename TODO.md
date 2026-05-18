@@ -13,4 +13,8 @@
 
 
 ### For CW Resolution
-- [ ] For UPR Exchange name, creation thru portal does not seem to use `get_or_create_exchange_name`  logic. end up 
+- [ ] For UPR Exchange name, creation thru portal does not seem to use `get_or_create_exchange_name`  logic. 
+	- emission_factor_service.py
+		- insert_lcia() , after the else statement ... `upr_exchange_name` 
+	- How to resolve? just match name and unit? want to match upr_exchange_name_cpc_id as well? 
+	- Frontend need to offer a lookup and selection?
