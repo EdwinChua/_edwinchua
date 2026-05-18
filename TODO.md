@@ -7,3 +7,4 @@
 - [ ] I/O intermediate qty editing bug.
 - [ ] I/O create Final product - "Final" missing from label
 - [ ] lcia tagging. table should have sort by
+- [ ] scoping - multi select editor dropdowns not working
