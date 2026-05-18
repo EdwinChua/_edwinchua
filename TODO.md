@@ -1,3 +1,5 @@
 #todo 
 
-[[ADVISE LCA Platform]] #todo merge yiyang's stuff. resolve conflicts
+[[ADVISE LCA Platform]] #todo 
+
+- [ ] Stage Creation - Press enter to create

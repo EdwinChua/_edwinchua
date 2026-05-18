@@ -4,18 +4,19 @@
 #### UOB PRVI Miles (urgent — points die on closure)
 - [x] Check UNI$ balance in UOB TMRW app
 - [x] Convert UNI$ → KrisFlyer miles (fee applies per conversion)
-- [ ] Confirm miles credited to KrisFlyer account
-- [ ] Cancel card via UOB TMRW app or call 1800 222 2121
+- [x] Confirm miles credited to KrisFlyer account
+- [x] Cancel card via UOB TMRW app or call 1800 222 2121
 
 #### Maybank Horizon Visa Signature (urgent — points die on closure)
-- [ ] Check TREATS Points balance in Maybank TREATS SG app
-- [ ] Convert TREATS Points → KrisFlyer miles (poor rate, but better than losing them)
-- [ ] Confirm miles credited to KrisFlyer account
+- [x] Check TREATS Points balance in Maybank TREATS SG app
+- [x] Convert TREATS Points → KrisFlyer miles (poor rate, but better than losing them)
+- [x] Confirm miles credited to KrisFlyer account
+- [ ] Redeem Wine stuff
 - [ ] Cancel card via Maybank hotline 1800 629 2265
 
 #### UOB One Visa (no points, just cashback)
-- [ ] Confirm last quarterly cashback has been credited
-- [ ] Cancel card via UOB TMRW app or call 1800 222 2121
+- [x] Confirm last quarterly cashback has been credited
+- [x] Cancel card via UOB TMRW app or call 1800 222 2121
 
 #### DBS Live Fresh Visa (DBS Points — safe, but tidy up)
 - [ ] Check DBS Points balance in digibank
@@ -27,10 +28,10 @@
 - [ ] Cancel card via Maybank hotline 1800 629 2265
 
 ### Apply for replacement
-- [ ] Update income records with DBS via digibank (use MyInfo/Singpass route)
-- [ ] Confirm income update email received from DBS
-- [ ] Apply for DBS Vantage Visa Infinite via digibank
-- [ ] Keep DBS Altitude AMEX for now — DBS Points carry over to Vantage
+- [x] Update income records with DBS via digibank (use MyInfo/Singpass route)
+- [x] Confirm income update email received from DBS
+- [x] Apply for DBS Vantage Visa Infinite via digibank
+- [x] Keep DBS Altitude AMEX for now — DBS Points carry over to Vantage
 
 ### After Vantage approval
 - [ ] Activate Vantage via DBS digibank app
