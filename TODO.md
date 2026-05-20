@@ -22,3 +22,8 @@
 		- insert_lcia() , after the else statement ... `upr_exchange_name` 
 	- How to resolve? just match name and unit? want to match upr_exchange_name_cpc_id as well? 
 	- Frontend need to offer a lookup and selection?
+
+
+## CE2M
+* MK docs - install to wp8 repo
+* write tests
