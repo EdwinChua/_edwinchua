@@ -10,6 +10,8 @@
 - [ ] lcia tagging, only 3.9.1 showing up
 - [ ] scoping - multi select editor dropdowns not working
 - [ ] dashboard - process breakdown chart mouseover. "Stage null - XXX"
+
+### Importer
 - [ ] functional unit selection on import
 	- [ ] Logic is based on when uploading upr exchange name - tag reference product (which is usually 0 input or 0 output)
 
