@@ -25,9 +25,9 @@
 
 
 ## CE2M
-* MK docs - install to wp8 repo
-* write tests
-* migrate to linux
+* [ ] MK docs - install to wp8 repo
+* [ ] write tests
+* [ ] migrate to linux
 	* incl docker
 	* remove gams
 	* put open ended integration to NetZero library
