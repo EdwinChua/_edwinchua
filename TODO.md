@@ -10,6 +10,7 @@
 - [ ] lcia tagging, only 3.9.1 showing up
 - [ ] scoping - multi select editor dropdowns not working
 - [ ] dashboard - process breakdown chart mouseover. "Stage null - XXX"
+- [ ] scoping classification - multi edit can cause all items to change to scope of 1st item (prelim finding)
 
 ### Importer
 - [ ] functional unit selection on import
