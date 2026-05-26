@@ -4,7 +4,7 @@
 
 - [x] Stage Creation - Press enter to create
 - [x] When setting target process for an intermediate, the thing does not refresh.
-- [ ] I/O intermediate qty editing bug.
+- [x] I/O intermediate qty editing bug.
 - [ ] I/O create Final product - "Final" missing from label
 - [ ] lcia tagging, scoping table should have sort by
 - [ ] lcia tagging, only 3.9.1 showing up
