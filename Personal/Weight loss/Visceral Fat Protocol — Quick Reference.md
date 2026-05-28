@@ -1,4 +1,5 @@
-
+Source: Dr Leonid Kim
+Cross verified with Claude
 
 **🥗 Anti-inflammatory foods (omega-3s + polyphenols)**
 
