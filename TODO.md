@@ -33,5 +33,7 @@
 	* remove gams
 	* put open ended integration to NetZero library
 - [ ] Parameter refresh
+- [ ] integration with wp7
+- [ ] Federation with other WPs
 - [ ] Workshop 3
-- [ ] Other 
+- [ ] Other improvements
