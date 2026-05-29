@@ -32,3 +32,6 @@
 	* incl docker
 	* remove gams
 	* put open ended integration to NetZero library
+- [ ] Parameter refresh
+- [ ] Workshop 3
+- [ ] Other 

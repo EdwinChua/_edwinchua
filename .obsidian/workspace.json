@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -235,10 +235,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffa793dfad093c55",
+  "active": "9bb9611bf1b8df6a",
   "lastOpenFiles": [
-    "TODO.md",
     "Personal/Weight loss/Visceral Fat Protocol — Quick Reference.md",
+    "TODO.md",
     "Personal/Weight loss",
     "Personal projects.md",
     "Pasted image 20260410114242.png",
