@@ -1,0 +1,35 @@
+filters:
+  and:
+    - note["base"] == link("🍳 Cooking.base")
+properties:
+  file.name:
+    displayName: Recipe
+  Notes:
+    displayName: Notes
+  Category:
+    displayName: Category
+  Cuisine:
+    displayName: Cuisine
+  Difficulty:
+    displayName: Difficulty
+  Active Time:
+    displayName: Active Time
+  Total Time:
+    displayName: Total Time
+  Servings:
+    displayName: Servings
+  Created:
+    displayName: Created
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Category
+      - Cuisine
+      - Difficulty
+      - Active Time
+      - Total Time
+      - Servings
+      - Notes
+      - Created

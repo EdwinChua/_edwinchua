@@ -14,6 +14,7 @@ A personal knowledge system optimized for AI-assisted retrieval and organization
 - ✈️ **Travel** — trips, destinations, and places
 - 🍷 **Wine Log** — bottles tasted, ratings, flavor notes
 - 🍷 **Wine Knowledge** — beginner's guide to regions and grapes
+- 🍳 **Cooking** — recipes worth making again
 - 💼 **Work** — tasks, projects, meeting notes, and performance appraisals
 
 ---
@@ -46,6 +47,8 @@ To find anything, search by tag, area, or status across databases.
 ![[🍶 Sake Log.base]]
 
 [[🏺 Sake & Wine Equipment]]
+
+![[🍳 Cooking.base]]
 
 [[💼 Work]]
 
