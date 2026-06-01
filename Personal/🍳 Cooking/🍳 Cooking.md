@@ -1,5 +1,5 @@
 ---
-tags: [hub, cooking, recipes]
+tags: [hub, cooking, recipes, suppliers]
 ---
 Recipes and cooking notes — dishes worth making again. Each recipe links back to the database below; click any one for the full ingredients and method.
 
@@ -8,6 +8,14 @@ Recipes and cooking notes — dishes worth making again. Each recipe links back 
 ## 📚 What's in here
 
 - 🦆 **Duck Breast Prosciutto** — salt-cured, air-dried duck. Easy but slow (~8 days, mostly hands-off).
+
+---
+
+## 🛒 Suppliers
+
+Where to source good ingredients.
+
+- 🥩 **[Tasty Food Affair](https://www.tastyfoodaffair.com/)** — good-value supplier of steaks. #supplier #beef
 
 ---
 
