@@ -15,7 +15,8 @@ Recipes and cooking notes — dishes worth making again. Each recipe links back 
 
 Where to source good ingredients.
 
-- 🥩 **[Tasty Food Affair](https://www.tastyfoodaffair.com/)** — good-value supplier of steaks. #supplier #beef
+- 🥩 **[Tasty Food Affair](https://www.tastyfoodaffair.com/)** — local supplier, good value for steaks. ⏳ Requires **~3 days** to prepare the order, so plan ahead. #supplier #beef #local
+	- *Reference price:* **New Zealand Fresh Grass-Fed Ribeye** — 4 × 280g for **SGD $51.80** (≈ $12.95/steak, ≈ $46/kg).
 
 ---
 
