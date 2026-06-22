@@ -3,7 +3,7 @@ name: copilot-byo-deletes-env-zone
 description: Copilot cdn:true->BYO env deploy deletes the entire env-managed Route53 subzone (not just records); re-verify zone IDs before time-critical writes
 metadata: 
   node_type: memory
-  type: reference
+  type: project
   originSessionId: 5db32173-ff2c-45d5-9f32-bb84b09938d2
 ---
 
