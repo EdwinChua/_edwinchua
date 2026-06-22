@@ -35,3 +35,14 @@ endpoint (`grant_type=refresh_token`, client secret `AUTH_COGNITO_SECRET`), upda
 code):** set NextAuth `session.maxAge` < 1h so the existing silent bridge re-mints before
 the id-token expires (costs a ~hourly silent redirect). Related: this is the FE half of
 [[platform-portal-enforcement-egress-chain]] (which covered the backend-side preconditions).
+
+**STATUS (2026-06-22): FIXED** — implemented as commit `662e78509` on
+`feat/admin-portal-integration`: refresh in the NextAuth `jwt` callback via a new
+`auth-refresh.ts` (resolves the Cognito token endpoint from OIDC discovery, cached;
+`refresh_token` grant with HTTP Basic; no-op in the edge runtime), `next-auth.d.ts` type
+augmentation (drops the old `as any`), and a `UserProvider` one-shot re-login on
+`session.error === "RefreshAccessTokenError"`. Verified jest 37/37 + tsc + lint; one
+adversarial critique, no blockers. **PENDING: deploy to dev (push feat→dev → frontend
+deploy) + post-deploy smoke** (a >1h session should now 200, not 401). Separate follow-up
+(NOT the refresh itself): also force re-login on a backend 401, not just on refresh failure —
+`getMe` masks 401s as a generic load failure today (task_aad6d4a3).
