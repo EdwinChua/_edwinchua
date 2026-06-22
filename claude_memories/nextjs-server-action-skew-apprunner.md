@@ -3,7 +3,7 @@ name: nextjs-server-action-skew-apprunner
 description: "Next.js Server Actions break (\"Failed to find Server Action\" → undefined) across multi-instance/rolling deploys unless the signing key is pinned"
 metadata: 
   node_type: memory
-  type: reference
+  type: project
   originSessionId: ba6d4fe5-89ca-4206-86d5-f0adf2384f5a
 ---
 
