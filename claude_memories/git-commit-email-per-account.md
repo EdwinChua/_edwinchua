@@ -15,4 +15,4 @@ Use the right commit email per account:
 
 **How to apply:** this is wired in git, not just behavioral — `~/.gitconfig` has conditional includes (`includeIf "hasconfig:remote.*.url:https://github.com/EdwinChua/**"` and the `git@github.com:EdwinChua/**` SSH form) pointing to `~/.gitconfig-personal`, which sets the personal name/email. Any repo with an EdwinChua remote auto-resolves to the personal email; all other repos fall back to the global default (work). When creating a new personal repo, just add the EdwinChua remote and the email is correct automatically — no per-repo config needed.
 
-Note: the global default is currently `edwin_chua@simtech.a-star.edu.sg` (a subdomain of the stated work address); left as-is. Relates to [[no-claude-coauthor-commits]].
+The global git default (`~/.gitconfig` user.email) is `edwin_chua@a-star.edu.sg` — this is the work fallback for any repo without an EdwinChua remote. Relates to [[no-claude-coauthor-commits]].
