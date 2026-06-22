@@ -3,7 +3,7 @@ name: acm-validation-deterministic-copilot-tls
 description: "ACM DNS-validation records are deterministic per (domain, account) across regions; Copilot terminate_tls forces a 3-round deploy"
 metadata: 
   node_type: memory
-  type: reference
+  type: project
   originSessionId: ba6d4fe5-89ca-4206-86d5-f0adf2384f5a
 ---
 
