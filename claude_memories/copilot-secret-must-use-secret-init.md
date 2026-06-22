@@ -3,7 +3,7 @@ name: copilot-secret-must-use-secret-init
 description: "AWS Copilot service secrets MUST be created via `copilot secret init` (tags them), not raw aws ssm put-parameter, or the task can't start"
 metadata: 
   node_type: memory
-  type: reference
+  type: project
   originSessionId: ba6d4fe5-89ca-4206-86d5-f0adf2384f5a
 ---
 
