@@ -26,8 +26,8 @@ The dev org is **`019ed186-0f21-7af9-afcd-3507c6ff9b52`** (a portal UUIDv7) — 
 lcia "Dev Test"/"Test" rows and is the only non-NULL owner in the whole DB.
 
 **Decision (user, 2026-06-22):** leave the bulk NULLs as-is; revisit when **paid
-(ENTITLED axis) and public datasets** are implemented. **`SHARING_ENABLED` is therefore
-unblocked** — no DB backfill is a prerequisite. The flag flip itself is a Copilot manifest
-change, so mind [[copilot-manifest-change-needs-path-filter]] (won't deploy without a
-`backend/**` path hit) and [[platform-portal-enforcement-egress-chain]] (the rest of the
-enforcement preconditions).
+(ENTITLED axis) and public datasets** are implemented. **`SHARING_ENABLED` was flipped
+2026-06-19 and is LIVE on dev** (user-confirmed 2026-06-22) — this triage confirms the
+live state is correct: no leak, no backfill. (Flag flips are manifest-only changes that
+need a forced deploy to land, [[copilot-manifest-change-needs-path-filter]]; enforcement
+also needs the portal wiring, [[platform-portal-enforcement-egress-chain]].)
