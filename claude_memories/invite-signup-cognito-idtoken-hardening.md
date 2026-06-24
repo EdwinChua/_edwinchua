@@ -1,6 +1,6 @@
 ---
 name: invite-signup-cognito-idtoken-hardening
-description: "Portal invite-signup: hCaptcha removed + /invitation_tokens/use now requires a verified Cognito ID token (x-id-token) and derives the email server-side. Merged to dev (637e30f9), UNPUSHED. Deploy gotcha: requires email_verified=true."
+description: "Portal invite-signup: hCaptcha removed + /invitation_tokens/use now requires a verified Cognito ID token (x-id-token) and derives the email server-side. Deployed to dev 2026-06-24; box needed a MANUAL COGNITO_* .env.backend patch because the CI deploy skips bootstrap.sh."
 metadata: 
   node_type: memory
   type: project
