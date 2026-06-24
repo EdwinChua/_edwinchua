@@ -4,7 +4,7 @@
 - [DB action verification](db-action-verification.md) — low-risk DB action = 1 subagent verify; high-risk = 5-agent council; LCA dev DB is read-only
 - [Critique code mods with 2 agents](critique-code-mods-two-agents.md) — after any code change, run 2 agents to critique + improve it on the worktree
 - [Cognito dev pool topology](cognito-dev-pool-topology.md) — advise-dev-users (copy of advise-prod-users); one advise-platform client per pool; local-dev login wiring + Managed Login v2 branding
-- [Identity Portal dev is live on App Runner](apprunner-dev-live.md) — dev.identity.advise.technology; App Runner usable via CFN/CLI despite disabled console; SSL/emoji/path gotchas
+- [Portal dev on EC2 + Docker + RDS](portal-dev-ec2-docker-runtime.md) — migrated off App Runner (retired); EC2/Docker Compose + dedicated RDS; CI deploys via SSM; Windows/Menlo CLI gotchas
 - [ACM validation determinism + Copilot TLS](acm-validation-deterministic-copilot-tls.md) — ACM DNS-validation CNAMEs are deterministic per (domain,account) across regions; Copilot terminate_tls forces a 3-round deploy, BYO ALB cert avoids it
 - [Copilot BYO deletes the env subzone](copilot-byo-deletes-env-zone.md) — cdn:true→BYO env deploy deletes the whole env-managed Route53 subzone+delegation; serve kept hosts from the parent zone; re-verify zone IDs before time-critical writes
 - [Copilot secrets need secret init](copilot-secret-must-use-secret-init.md) — create Copilot service secrets via `copilot secret init` (tags them), not raw ssm put-parameter, or the task fails to launch (execution-role policy is tag-conditioned)
