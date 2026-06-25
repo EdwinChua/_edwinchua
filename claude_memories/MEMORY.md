@@ -22,3 +22,5 @@
 - [Sync memories to _edwinchua repo](sync-memories-to-edwinchua-repo.md) — after any memory add/edit/delete, mirror the memory dir into repos\_edwinchua\claude_memories and push to main (shared across devices)
 - [Git commit email per account](git-commit-email-per-account.md) — personal email (3dw1nchu4@gmail.com) for github.com/EdwinChua repos, work email otherwise; wired via gitconfig includeIf
 - [Menlo proxy breaks Python TLS](menlo-proxy-tls-python-ca-bundle.md) — corporate MITM → httpx/requests CERTIFICATE_VERIFY_FAILED; fix SSL_CERT_FILE/REQUESTS_CA_BUNDLE/AWS_CA_BUNDLE = Windows CA bundle (.pem); etea local→hosted-portal "portal unavailable" needs it in root .env + a full debug-session restart
+- [advise repos PR test CI](advise-repos-pr-test-ci.md) — pull_request test gates wired both repos; no-DB pytest subset + skip-on-no-DB; with_admin turbo check-types/lint/bun-test; Postgres job is a manual follow-up
+- [pipenv run swallows exit codes](pipenv-run-swallows-exit-codes.md) — pipenv run can return 0 on child failure → call $(pipenv --venv)/bin/python -m pytest directly in CI
