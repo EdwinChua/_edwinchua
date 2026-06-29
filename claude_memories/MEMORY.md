@@ -25,3 +25,4 @@
 - [advise repos PR test CI](advise-repos-pr-test-ci.md) — pull_request test gates wired both repos; no-DB pytest subset + skip-on-no-DB; with_admin turbo check-types/lint/bun-test; Postgres job is a manual follow-up
 - [pipenv run swallows exit codes](pipenv-run-swallows-exit-codes.md) — pipenv run can return 0 on child failure → call $(pipenv --venv)/bin/python -m pytest directly in CI
 - [app-super bypass untestable by design](app-super-bypass-untestable-by-design.md) — app-super not assignable on dev/local by design; keep the FE `!isAppRoot` + backend `is_app_root` bypass (forward-compat); don't flag it dead or chase the app-root test case
+- [Feature-catalog management UI (next task)](feature-catalog-mgmt-ui.md) — build a UI to AUTHOR platform `lca.catalog_feature` rows (today API-only `/access-catalog/admin/features`); portal only has a GRANT UI; open Q: platform-side vs portal-superadmin screen
