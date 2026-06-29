@@ -24,3 +24,4 @@
 - [Menlo proxy breaks Python TLS](menlo-proxy-tls-python-ca-bundle.md) — corporate MITM → httpx/requests CERTIFICATE_VERIFY_FAILED; fix SSL_CERT_FILE/REQUESTS_CA_BUNDLE/AWS_CA_BUNDLE = Windows CA bundle (.pem); etea local→hosted-portal "portal unavailable" needs it in root .env + a full debug-session restart
 - [advise repos PR test CI](advise-repos-pr-test-ci.md) — pull_request test gates wired both repos; no-DB pytest subset + skip-on-no-DB; with_admin turbo check-types/lint/bun-test; Postgres job is a manual follow-up
 - [pipenv run swallows exit codes](pipenv-run-swallows-exit-codes.md) — pipenv run can return 0 on child failure → call $(pipenv --venv)/bin/python -m pytest directly in CI
+- [app-super bypass untestable by design](app-super-bypass-untestable-by-design.md) — app-super not assignable on dev/local by design; keep the FE `!isAppRoot` + backend `is_app_root` bypass (forward-compat); don't flag it dead or chase the app-root test case
