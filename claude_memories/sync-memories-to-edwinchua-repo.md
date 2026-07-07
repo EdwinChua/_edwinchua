@@ -17,3 +17,5 @@ The canonical memory dir `C:\Users\chuache\.claude\projects\C--Users-chuache\mem
 3. Commit directly to `main` and push — this repo is an Obsidian vault, not feature-branch work, so [[fanout-features-in-worktrees]] does not apply here.
 
 Keep the mirror an exact copy of the live dir. If a memory is renamed/deleted, remove the stale file from the repo folder too.
+
+**⚠️ Do NOT use `robocopy /MIR` (or any blind mirror-with-delete):** `claude_memories/README.md` exists ONLY in the repo (not in the live dir) and /MIR prunes it — this has now happened twice (restored `b80998a`, `080d8ee`). Copy specific changed files, or if mirroring, exclude `README.md` (e.g. `robocopy ... /MIR /XF README.md`). Also: another session/hook may auto-sync concurrently — check `git log` for an existing sync commit before assuming your copy is missing.
