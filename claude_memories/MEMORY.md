@@ -27,3 +27,4 @@
 - [app-super bypass untestable by design](app-super-bypass-untestable-by-design.md) — app-super not assignable on dev/local by design; keep the FE `!isAppRoot` + backend `is_app_root` bypass (forward-compat); don't flag it dead or chase the app-root test case
 - [Feature-catalog management UI (next task)](feature-catalog-mgmt-ui.md) — build a UI to AUTHOR platform `lca.catalog_feature` rows (today API-only `/access-catalog/admin/features`); portal only has a GRANT UI; open Q: platform-side vs portal-superadmin screen
 - [lca snapshot ONLY-hint fan-out](lca-snapshot-only-hint-fanout.md) — joins on lcia/lcia_description/lcia_database/lcia_database_source need the ONLY hint; snapshot children share the live PK; tables empty on dev/local so tests won't catch a miss
+- [etea prod go-live 2026-07-07](etea-prod-golive.md) — prod LIVE+enforced (2026.0.3.0); pending = portal-prod seeding, catalog sync, client arming; portal repo release = deploy
