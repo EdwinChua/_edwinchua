@@ -14,11 +14,17 @@ ACCESS_CATALOG_TOKEN in prod SSM (values in `/copilot/etea/prod/secrets/*`, acct
 149536453305). Full state + runbook pointers live in the repo's `.claude/primer.md`
 (commit `293f694bb`).
 
+**✅ Catalog sync DONE 2026-07-07** (22 caps pulled). Gotcha that broke it twice: the sync
+runs inside the portal's FRONTEND container (embedded Elysia API / server action), NOT the
+backend container — refreshing portal-prod box env (SSM → sync-env.sh) must target BOTH
+`sync-env.sh backend` AND `sync-env.sh frontend` + `docker compose up -d --force-recreate`
+each; a stale frontend keeps 401ing with the old ACCESS_CATALOG_TOKEN. Portal-side token
+lives at SSM `/apprunner/advise-identity-portal/prod/ACCESS_CATALOG_TOKEN` (now v2, equals
+the platform-side value).
+
 **Still pending (all gated, portal side — acct 701518539545):**
 1. Seed portal prod: org, roles, seat pool, monte_carlo grants (users 403 until then).
-2. Catalog sync: portal pulls `GET https://api.etea.advise.technology/access-catalog`
-   with the prod ACCESS_CATALOG_TOKEN, then POST sync-catalog.
-3. Arm the prod platform client's application_id (Headline-1, token-hash match) BEFORE
+2. Arm the prod platform client's application_id (Headline-1, token-hash match) BEFORE
    first real users [[platform-portal-enforcement-egress-chain]].
 
 **Why:** next sessions must not re-plan the deploy or assume prod is unconfigured.
