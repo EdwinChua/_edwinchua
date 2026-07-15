@@ -29,3 +29,4 @@
 - [lca snapshot ONLY-hint fan-out](lca-snapshot-only-hint-fanout.md) — joins on lcia/lcia_description/lcia_database/lcia_database_source need the ONLY hint; snapshot children share the live PK; tables empty on dev/local so tests won't catch a miss
 - [etea prod go-live 2026-07-07](etea-prod-golive.md) — prod LIVE+enforced (2026.0.3.0); pending = portal-prod seeding, catalog sync, client arming; portal repo release = deploy
 - [etea 4-feature split design (LOCKED)](etea-feature-split-design.md) — feat:{lca,tea,ai,monte_carlo}; per-route lca split, bulk under lca, MC⇒LCA grant rule, timed-window arming, never arm via migration
+- [ce2m wp8 deployment topology](ce2m-wp8-deployment-topology.md) — 172.20.77.31:8080 nginx+Basic-auth (Menlo blocks browser; curl --noproxy); team deploys from monorepo subtree; API base must stay relative /_; rebuild+recommit out/ after URL changes
