@@ -1,4 +1,4 @@
-- [neurasil vault MCP server](neurasil-vault-mcp-server.md) — self-hosted second-brain (notes+SQL tables) replacing Notion; personal AWS acct 548045679450 profile neurasil, mcp.neurasil.com, Phase 0 skeleton deployed
+- [neurasil vault MCP server](neurasil-vault-mcp-server.md) — self-hosted second-brain (notes+SQL tables) replacing Notion; AWS 548045679450 profile neurasil; MCP (mcp.neurasil.com) + REST + web UI (app.neurasil.com) all LIVE
 - [No Claude co-author on commits](no-claude-coauthor-commits.md) — never add Co-Authored-By/AI attribution to any commit message
 - [Always council + fan out](always-council-and-fanout.md) — before ANY task, check for fan-out opportunities; 20-agent council for design calls; delegate broad/parallel work to subagents
 - [Coding lands on the active branch](fanout-features-in-worktrees.md) — commit work to each project's active branch; worktrees transient-only, merge back
