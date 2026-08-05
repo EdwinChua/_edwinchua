@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: e696b565-4e5d-4e86-ba47-b5854963dfea
-  modified: 2026-08-05T08:00:02.581Z
+  modified: 2026-08-05T09:10:19.272Z
 ---
 
 **neurasil** ("neural silicon") — a self-hosted personal "second brain" (free-form markdown notes + schema-on-demand CSV tables with real SQL) reachable as a remote MCP **custom connector** from claude.ai / Desktop / Cowork. Replaces Notion, whose hosted MCP connector kept failing OAuth. Started 2026-08-05.
@@ -21,4 +21,6 @@ metadata:
 
 **Build gotchas (hard-won):** deps are **FastMCP 3.4.5 / mcp 1.29.0 / duckdb 1.5.5** (not the 2.x assumed at planning). Package with `uv --python-platform x86_64-manylinux_2_28 --python-version 3.13`; **never `sam build`** (clobbers linux wheels); **keep `*.dist-info`** (fastmcp reads its version via importlib.metadata → pruning it 500s every request). Use **`MSYS_NO_PATHCONV=1`** for any git-bash `aws` call with `/neurasil/*` args (MSYS mangles leading-slash paths). Menlo CA fix is local-only — build.ps1 asserts it never enters the artifact.
 
-**Status @ 2026-08-05:** Phase 0 walking skeleton DEPLOYED + verified on real Lambda (authenticated `/mcp` initialize+tools/list+echo works — Mangum lifespan risk retired). execute-api URL `https://vx1obv9002.execute-api.ap-southeast-1.amazonaws.com`. Throwaway JWT signing key in SSM (rotate via `scripts/put-secrets.ps1` before go-live). BLOCKED on: ACM cert `PENDING_VALIDATION` (user must add the `_2136ecb78430260d7c4f662052874185.mcp` CNAME at neurasil.com registrar). Then: put-secrets (user runs, GitHub secret), domain deploy, `mcp` CNAME, add connector on 3 surfaces. Then Phase 1 = core vault engine (`src/vault/`).
+**Status @ 2026-08-05 — LIVE.** Phases 0–2 complete + 4 critique rounds applied (auth ×2, vault engine ×2, adapter ×2). `mcp.neurasil.com` serves **20 vault tools** over OAuth; connector added in claude.ai and confirmed working end to end. Real secrets in SSM (throwaway signing key rotated out via put-secrets). 72 moto-backed tests green. Core engine `src/neurasil/vault/` (storage CAS, schema, tables, notes, query, index) is MCP-agnostic; adapter `src/neurasil/tools.py`; `SETUP.md` is the reproducible stand-up guide. Deploy = `build.ps1` → `aws cloudformation package/deploy` with `CanonicalBaseUrl/DomainName/CertificateArn`; smoke via `scripts/smoke.py`.
+Cert ARN `…/9dd8b4f3-d310-4bec-87f6-bcc269c8334b` (ISSUED). ACM validation CNAME + `mcp`→`d-j9j81d2ds1.execute-api.ap-southeast-1.amazonaws.com` live at registrar (keep forever). Connector client id `neurasil-E8DFZ4e0`; secrets in `/neurasil/*`.
+**NOT done:** seed `_meta/instructions.md` + `finance/_index.md` (Phase 5 polish); the Notion→vault data migration (742 rows / 6 tables / 9 pages — deliberate later effort); re-point the `dbs-statement-reconciliation` skill at neurasil.
