@@ -1,11 +1,11 @@
 ---
 name: neurasil-vault-mcp-server
-description: "neurasil = self-hosted second-brain vault MCP server replacing Notion; personal AWS account, deployed skeleton, key build facts"
+description: "neurasil = self-hosted second-brain vault (MCP connector + Notion-like web UI) replacing Notion; personal AWS 548045679450; MCP + REST + SPA all LIVE; key build/deploy facts"
 metadata: 
   node_type: memory
   type: project
   originSessionId: e696b565-4e5d-4e86-ba47-b5854963dfea
-  modified: 2026-08-05T15:45:15.318Z
+  modified: 2026-08-05T15:45:37.835Z
 ---
 
 **neurasil** ("neural silicon") — a self-hosted personal "second brain" (free-form markdown notes + schema-on-demand CSV tables with real SQL) reachable as a remote MCP **custom connector** from claude.ai / Desktop / Cowork. Replaces Notion, whose hosted MCP connector kept failing OAuth. Started 2026-08-05.
