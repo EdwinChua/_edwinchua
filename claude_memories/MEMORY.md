@@ -32,3 +32,4 @@
 - [Query the portal prod/dev RDS](portal-prod-db-query-recipe.md) — private DB, no psql on the box: SSM + postgres container with --env-file (never source .env.backend) + mount the RDS CA; portal repo release = deploy
 - [etea 4-feature split design (LOCKED)](etea-feature-split-design.md) — feat:{lca,tea,ai,monte_carlo}; per-route lca split, bulk under lca, MC⇒LCA grant rule, timed-window arming, never arm via migration
 - [ce2m wp8 deployment topology](ce2m-wp8-deployment-topology.md) — 172.20.77.31:8080 nginx+Basic-auth (Menlo blocks browser; curl --noproxy); team deploys from monorepo subtree; API base must stay relative /_; rebuild+recommit out/ after URL changes
+- [MCP response vs schema change cost](mcp-response-vs-schema-change-cost.md) — enriching a tool RESPONSE is free on a live connector; descriptions + parameters are tools/list and cost a refresh
