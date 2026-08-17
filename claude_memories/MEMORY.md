@@ -3,6 +3,7 @@
 - [Always council + fan out](always-council-and-fanout.md) — before ANY task, check for fan-out opportunities; 20-agent council for design calls; delegate broad/parallel work to subagents
 - [Coding lands on the active branch](fanout-features-in-worktrees.md) — commit work to each project's active branch; worktrees transient-only, merge back
 - [DB action verification](db-action-verification.md) — low-risk DB action = 1 subagent verify; high-risk = 5-agent council; LCA dev DB is read-only
+- ["Query the DB" means report the rows](db-query-means-report-rows.md) — don't read app code afterwards to interpret/explain the result; schema lookup beforehand is fine
 - [Critique code mods with 2 agents](critique-code-mods-two-agents.md) — after any code change, run 2 agents to critique + improve it on the worktree
 - [Cognito dev pool topology](cognito-dev-pool-topology.md) — advise-dev-users (copy of advise-prod-users); one advise-platform client per pool; local-dev login wiring + Managed Login v2 branding
 - [Portal dev on EC2 + Docker + RDS](portal-dev-ec2-docker-runtime.md) — migrated off App Runner (retired); EC2/Docker Compose + dedicated RDS; CI deploys via SSM; Windows/Menlo CLI gotchas
