@@ -37,3 +37,5 @@
 - [MCP response vs schema change cost](mcp-response-vs-schema-change-cost.md) — enriching a tool RESPONSE is free on a live connector; descriptions + parameters are tools/list and cost a refresh
 - [Portal v1.2.0 rollback REVERTED](portal-prod-pinned-v1.2.0-invite-regression.md) — both envs back on v1.3.0 (2026-08-17), prod IMAGE_TAG pin removed; the "v1.3.0 broke invites" verdict is retracted — suspect Menlo instead
 - [Menlo breaks Next.js server actions](menlo-breaks-nextjs-server-actions.md) — SafeView reclassifies text/x-component as a file download and swaps in HTML; intermittent, A*STAR-only, silent; fix = JSON route handlers (see lib/orgAdmin pattern)
+- [Cognito SSO cookie is a fixed 60 min](cognito-sso-cookie-60min-no-slide.md) — does NOT slide on silent authorize, so prompt=none has a 60-minute shelf life and login_required stops meaning "logged out"
+- [Cross-app logout: measured Cognito facts](etea-portal-cross-app-logout-facts.md) — /logout does not revoke refresh tokens (5-day ghost), revoke is per-lineage, auth_time/origin_jti differ per app
