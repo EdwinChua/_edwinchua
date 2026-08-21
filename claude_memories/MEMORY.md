@@ -1,4 +1,4 @@
-- [neurasil vault MCP server](neurasil-vault-mcp-server.md) — self-hosted second-brain (notes+SQL tables) replacing Notion; AWS 548045679450 profile neurasil; MCP (mcp.neurasil.com) + REST + web UI (app.neurasil.com) all LIVE
+- [neurasil vault MCP server](neurasil-vault-mcp-server.md) — self-hosted second-brain (notes+SQL tables) replacing Notion; AWS 548045679450 profile neurasil; MCP + REST + web UI all LIVE; identity unified on Cognito (IdP, not AS) + writes attributed to an email since 2026-08-21
 - [No Claude co-author on commits](no-claude-coauthor-commits.md) — never add Co-Authored-By/AI attribution to any commit message
 - [Always council + fan out](always-council-and-fanout.md) — before ANY task, check for fan-out opportunities; 20-agent council for design calls; delegate broad/parallel work to subagents
 - [Sonnet for subagents by default](sonnet-subagents-by-default.md) — pass model:'sonnet' on fan-out workers; keep the session model for the final synthesis only
