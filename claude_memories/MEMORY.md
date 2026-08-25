@@ -43,3 +43,4 @@
 - [Cross-app logout: measured Cognito facts](etea-portal-cross-app-logout-facts.md) — /logout does not revoke refresh tokens (5-day ghost), revoke is per-lineage, auth_time/origin_jti differ per app
 - [Never call Cost Explorer unpermitted](no-cost-explorer-without-permission.md) — `aws ce` bills $0.01 per request; ask first, and reach for free APIs (s3api, lambda, CloudWatch) instead
 - [AWS free limits are a neurasil design constraint](aws-free-tier-is-the-neurasil-design-constraint.md) — account is past its 12-month tier, so only always-free Lambda + CloudFront count; keep S3 small and its versions short-lived
+- [PowerShell 5.1: `2>&1` breaks `$?`](powershell-51-redirect-breaks-dollar-question.md) — a native exe redirected this way sets `$?` false on exit code 0, so an `if ($?)` gate silently skips the next step; check `$LASTEXITCODE` and verify deploys from the target
