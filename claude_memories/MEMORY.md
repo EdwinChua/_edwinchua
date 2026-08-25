@@ -41,3 +41,5 @@
 - [Menlo breaks Next.js server actions](menlo-breaks-nextjs-server-actions.md) — SafeView reclassifies text/x-component as a file download and swaps in HTML; intermittent, A*STAR-only, silent; fix = JSON route handlers (see lib/orgAdmin pattern)
 - [Cognito SSO cookie is a fixed 60 min](cognito-sso-cookie-60min-no-slide.md) — does NOT slide on silent authorize, so prompt=none has a 60-minute shelf life and login_required stops meaning "logged out"
 - [Cross-app logout: measured Cognito facts](etea-portal-cross-app-logout-facts.md) — /logout does not revoke refresh tokens (5-day ghost), revoke is per-lineage, auth_time/origin_jti differ per app
+- [Never call Cost Explorer unpermitted](no-cost-explorer-without-permission.md) — `aws ce` bills $0.01 per request; ask first, and reach for free APIs (s3api, lambda, CloudWatch) instead
+- [AWS free limits are a neurasil design constraint](aws-free-tier-is-the-neurasil-design-constraint.md) — account is past its 12-month tier, so only always-free Lambda + CloudFront count; keep S3 small and its versions short-lived
