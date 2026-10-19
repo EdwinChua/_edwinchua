@@ -45,3 +45,4 @@
 - [AWS free limits are a neurasil design constraint](aws-free-tier-is-the-neurasil-design-constraint.md) — account is past its 12-month tier, so only always-free Lambda + CloudFront count; keep S3 small and its versions short-lived
 - [PowerShell 5.1: `2>&1` breaks `$?`](powershell-51-redirect-breaks-dollar-question.md) — a native exe redirected this way sets `$?` false on exit code 0, so an `if ($?)` gate silently skips the next step; check `$LASTEXITCODE` and verify deploys from the target
 - [neurasil README screenshots (2026-08-26)](neurasil-readme-screenshots-planned.md) — generate mock data under the empty WORK account, screenshot the UI, add to README; mock data because the live vault holds real personal data
+- [lcav2-production PG17 keeps force_ssl=0](lcav2-production-pg17-force-ssl.md) — upgraded 14→17.11 on 2026-10-19 with custom group lcav2-postgres17; never attach default.postgres17 (force_ssl=1 breaks Green Compass/pg8000 non-SSL clients)
